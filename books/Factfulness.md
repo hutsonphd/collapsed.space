@@ -14,9 +14,9 @@ author: '[[Hans Rosling]]'
 avgRating: '4.49'
 ---
 #book
-![cover|150](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520379402l/36185940._SY475_.jpg)
+![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520379402l/36185940._SY475_.jpg)
 
-> [!abstract]-
+{: .abstract}
 >When asked simple questions about global trends—_what percentage of the world’s population live in poverty; why the world’s population is increasing; how many girls finish school_—we systematically get the answers wrong. So wrong that a chimpanzee choosing answers at random will consistently outguess teachers, journalists, Nobel laureates, and investment bankers. 
 >
 >In _Factfulness_, Professor of International Health and global TED phenomenon Hans Rosling, together with his two long-time collaborators, Anna and Ola, offers **a radical new explanation of why this happens**. They reveal **the ten instincts that distort our perspective**—from our tendency to divide the world into two camps (usually some version of _us_ and _them_) to the way we consume media (where fear rules) to how we perceive progress (believing that most things are getting worse).  

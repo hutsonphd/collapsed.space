@@ -24,9 +24,9 @@ relations:
   - "[[Company Culture]]"
   - "[[Core Values]]"
 ---
-![cover|150](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1278520106l/8549192.jpg)
+![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1278520106l/8549192.jpg)
 
-> [!abstract]-
+{: .abstract}
 > Don't let common problems run you and your business. Get a grip and gain control with the Entrepreneurial Operating System (EOS). Inside Traction, you’ll discover simple yet powerful ways to run your company with more focus, growth and enjoyment. Based on years of real-world implementation, the EOS is a practical method for achieving the business success you have always envisioned.
 
 # Takeaways

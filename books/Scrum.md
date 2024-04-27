@@ -24,9 +24,9 @@ relations:
   - "[[Leadership]]"
   - "[[Agile Development Practices]]"
 ---
-![cover|150](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393221649l/19288230.jpg)
+![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393221649l/19288230.jpg)
 
-> [!abstract]-
+{: .abstract}
 > In the future, historians may look back on human progress and draw a sharp line designating “before Scrum” and “after Scrum.” Scrum is that ground-breaking. It already drives most of the world’s top technology companies. And now it’s starting to spread to every domain where leaders wrestle with complex projects.  
 > 
 > If you’ve ever been startled by how fast the world is changing, Scrum is one of the reasons why. Productivity gains of as much as 1200% have been recorded, and there’s no more lucid – or compelling – explainer of Scrum and its bright promise than Jeff Sutherland, the man who put together the first Scrum team more than twenty years ago.  

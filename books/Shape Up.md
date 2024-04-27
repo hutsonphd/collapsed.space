@@ -24,9 +24,9 @@ relations:
   - "[[Task Delegation]]"
   - "[[Bug Fixing Strategies]]"
 ---
-![cover|150](https://www.colemanm.org/images/books/singer-shape-up.jpg)
+![](https://www.colemanm.org/images/books/singer-shape-up.jpg)
 
->[!abstract]-
+{: .abstract}
 >This is an online web book about how Basecamp does their work.  
 >
 >This book is a guide to how we do product development at Basecamp. It’s also a toolbox full of techniques that you can apply in your own way to your own process.

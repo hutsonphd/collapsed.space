@@ -24,9 +24,9 @@ relations:
   - "[[Performance Measures and Incentives]]"
   - "[[Product Governance]]"
 ---
-![cover|150](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682806032l/137937505._SY475_.jpg)
+![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682806032l/137937505._SY475_.jpg)
 
-> [!abstract]-
+{: .abstract}
 > Transforming a B2B services business model to a more scalable, profitable, productized company can have many points of failure - **but the biggest and most underserved is the cultural transformation required to support successful productization**. The encore book from Eisha Armstrong and her team at Vecteris, Fearless tackles this frequent point of failure and dives deep on the change management required to build a **Product-Friendly Culture**. 
 > 
 > Building on the insights presented in Productize, Fearless details how shifting a business model from services to products requires a profound, fearless cultural transformation; the book is uniquely focused on B2B services organizations and the complex challenges that come with productizing a culture that delivers highly customized services.  

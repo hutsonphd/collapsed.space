@@ -24,9 +24,9 @@ relations:
   - "[[Business Growth Scaling]]"
   - "[[Tech Industry Insights]]"
 ---
-![cover|150](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630663027l/18050143.jpg)
+![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630663027l/18050143.jpg)
 
-> [!abstract]-
+{: .abstract}
 > If you want to build a better future, you must believe in secrets.  
 > 
 > The great secret of our time is that there are still uncharted frontiers to explore and new inventions to create. In Zero to One, legendary entrepreneur and investor Peter Thiel shows how we can find singular ways to create those new things.  

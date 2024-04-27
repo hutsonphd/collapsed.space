@@ -24,9 +24,9 @@ relations:
   - "[[Scarcity Principle]]"
   - "[[Behavioral Psychology]]"
 ---
-![cover|150](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391026083l/28815.jpg)
+![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391026083l/28815.jpg)
 
-> [!abstract]-
+{: .abstract}
 > Influence, the classic book on persuasion, explains the psychology of why people say "yes"—and how to apply these understandings. Dr. Robert Cialdini is the seminal expert in the rapidly expanding field of influence and persuasion. His thirty-five years of rigorous, evidence-based research along with a three-year program of study on what moves people to change behavior has resulted in this highly acclaimed book.  
 > 
 > You'll learn the six universal principles, how to use them to become a skilled persuader—and how to defend yourself against them. Perfect for people in all walks of life, the principles of Influence will move you toward profound personal change and act as a driving force for your success.

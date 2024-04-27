@@ -25,9 +25,9 @@ tags:
   - "[[Workplace Accountability]]"
   - "[[Conflict Resolution]]"
 ---
-![cover|150](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523163610l/38714388._SY475_.jpg)
+![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523163610l/38714388._SY475_.jpg)
 
-> [!abstract]-
+{: .abstract}
 > From the #1 New York Times bestselling authors of Extreme Ownership comes a new and revolutionary approach to help leaders recognize and attain the leadership balance crucial to victory.  
 > 
 > With their first book, Extreme Ownership (published in October 2015), Jocko Willink and Leif Babin set a new standard for leadership, challenging readers to become better leaders, better followers, and better people, in both their professional and personal lives. Now, in THE DICHOTOMY OF LEADERSHIP , Jocko and Leif dive even deeper into the unchartered and complex waters of a concept first introduced in Extreme Ownership : finding balance between the opposing forces that pull every leader in different directions. Here, Willink and Babin get granular into the nuances that every successful leader must navigate.  

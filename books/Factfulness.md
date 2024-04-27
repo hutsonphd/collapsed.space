@@ -13,7 +13,6 @@ title: Factfulness
 author: '[[Hans Rosling]]'
 avgRating: '4.49'
 ---
-#book
 ![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520379402l/36185940._SY475_.jpg)
 
 {: .abstract}

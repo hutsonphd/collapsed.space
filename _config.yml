@@ -1,9 +1,33 @@
 title: Collapsed Space
 theme: just-the-docs
-# Color scheme supports "light" (default) and "dark"
-color_scheme: dark
 
-url: https://hutsonphd.github.io/collapsed.space
+url: https://hutsonphd.github.io/collapsed.space/
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+color_scheme: custom
+# logo: "/assets/svg/logo.svg"
+# favicon_ico: "/assets/svg/favicon.svg"
+
+callouts:
+  abstract:
+    title: Abstract
+    color: blue
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: grey-lt
+  new:
+    title: New
+    color: primary
+  warning:
+    title: Warning
+    color: red
+
+search_enabled: true
+heading_anchors: true
+nav_enabled: true
+
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "9.1.3"

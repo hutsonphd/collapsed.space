@@ -1,4 +1,6 @@
 ---
+layout: default
+parent: Home
 id: https://www.goodreads.com/book/show/51152365
 fullTitle: Escape Velocity Better Metrics for Agile Teams
 pages: 178

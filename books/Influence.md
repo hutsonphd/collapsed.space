@@ -1,4 +1,6 @@
 ---
+layout: default
+parent: Home
 id: https://www.goodreads.com/book/show/28815
 fullTitle: Influence The Psychology of Persuasion
 pages: 320

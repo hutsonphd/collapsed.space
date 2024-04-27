@@ -1,4 +1,6 @@
 ---
+layout: default
+parent: Home
 id: https://www.goodreads.com/book/show/38714388
 fullTitle: The Dichotomy of Leadership Balancing the Challenges of Extreme Ownership to Lead and Win
 pages: 320

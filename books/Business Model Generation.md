@@ -1,11 +1,12 @@
 ---
+title: Business Model Generation
+layout: default
+parent: Home
 id: https://www.goodreads.com/book/show/7935732
 fullTitle: Business Model Generation A Handbook for Visionaries Game Changers and Challengers The Strategyzer series
 pages: 288
 cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407707076l/7935732.jpg
 datePublished: 2010-01-01
-title: Business Model Generation
-layout: default
 author:
   - "[[Alexander Osterwalder]]"
 avgRating: 4.21

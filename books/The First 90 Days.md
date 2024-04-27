@@ -1,4 +1,6 @@
 ---
+layout: default
+parent: Home
 id: https://goodreads.com/book/show/15824358
 fullTitle: The First 90 Days Critical Success Strategies for New Leaders at All Levels
 pages: '304'

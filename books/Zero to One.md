@@ -1,4 +1,6 @@
 ---
+layout: default
+parent: Home
 id: https://www.goodreads.com/book/show/18050143
 fullTitle: Zero to One Notes on Startups or How to Build the Future
 pages: 195

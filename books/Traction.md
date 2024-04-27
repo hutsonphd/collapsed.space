@@ -1,4 +1,6 @@
 ---
+layout: default
+parent: Home
 id: https://www.goodreads.com/book/show/8549192
 fullTitle: Traction
 pages: 

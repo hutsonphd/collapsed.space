@@ -1,4 +1,6 @@
 ---
+layout: default
+parent: Home
 id: "50776459"
 fullTitle: Shape Up Stop Running in Circles and Ship Work that Matters
 pages: "133"

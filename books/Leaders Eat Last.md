@@ -1,4 +1,6 @@
 ---
+layout: default
+parent: Home
 id: https://www.goodreads.com/book/show/34879669
 fullTitle: Leaders Eat Last
 pages: undefined

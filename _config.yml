@@ -16,13 +16,16 @@ callouts:
     color: red
   insight:
     title: "  Insight"
-    color: aqua
+    color: yellow
   critical:
     title: "  Critical"
     color: red
   question:
     title: " Question"
-    color: green
+    color: blue
+  notable:
+    title: " Notable"
+    color: yellow
 search_enabled: true
 heading_anchors: true
 nav_enabled: true

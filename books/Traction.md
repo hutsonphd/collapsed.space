@@ -118,7 +118,8 @@ relations:
     3. You can only run your business on one operating system.
     4. You must be open-minded, growth-oriented, and vulnerable. [Ref](yomu://content/annotation/4CFCFDD7-7477-41FA-A951-B3D1E6EFDD2A)
 ## CHAPTER 3: The Vision Component: Do They See What You Are Saying?
-> [!important] 
+
+{: .important}
 > - clarify your company's vision and the steps required to make it a reality. 
 > - many entrepreneurs can see their vision clearly and wrongly assume that everyone in their organization sees it as well.
 
@@ -225,7 +226,8 @@ relations:
 **Maintaining the Right Seat:**: warning against stretching an individual too thin, causing them to occupy two seats. Balancing work and maintaining the right seat is essential for overall productivity and success.
 **The Scalable Accountability Chart:**: recommends that an Accountability Chart should replace the traditional organizational chart, making it a scalable tool to illustrate the organizational structure.
 **Methodical Approach to Personnel Changes:** any personnel changes should follow a methodical approach and ensure that the leadership team is aligned.
-> [!important]
+
+{: .important}
 > Not everyone can keep up with organizational growth, and retaining people solely because you like them can be detrimental to the company and its employees.
 **Quick Check for Your Organization:**
 1. Is this the right structure to get us to the next level?
@@ -244,7 +246,7 @@ relations:
     3. third type of people issue, and that is wrong person, wrong seat. The solution is obvious: That person must go. [Ref](yomu://content/annotation/8F93B184-C2DF-40BA-BA10-BE5326C37EFA)
         - the problem is solved once you move this person. Unfortunately, sometimes there is no seat available. In this case, you have to make a very difficult choice. You have to make decisions for the greater good of the business, and you don’t have the luxury of keeping people around simply because you like them. If this is the case, you must let them go. Sugggested intervention for right person, wrong seat. [Ref](yomu://content/annotation/01F0CB3E-3A46-4FB5-97A3-49719E1CAF91)
 
-> [!important] 
+{: .important}
 > [[Good to Great]] Book recommendation [Ref](yomu://content/annotation/871F9558-D916-4268-A1B0-7D7B25D4AE98)
 > [[Unique Ability]] Book recommendation [Ref](yomu://content/annotation/CBDBCE53-3E4A-4B53-90E1-2F8EA622A8F1)
 - [The People Analyzer](www.eosworldwide.com/people) is designed to clarify whether you have the right person in place or not. [Ref](yomu://content/annotation/B2D95FA3-E804-494E-8058-2AB7B86BF9D1)

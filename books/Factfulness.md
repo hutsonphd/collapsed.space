@@ -35,12 +35,13 @@ avgRating: '4.49'
 - The world makeover refers to tendency from 1965 for countries where families had many children also had many child deaths, and the converse fewer child leads to fewer child deaths. 
 - However, comparing results from 1965 to 2017, we see an overall decrease in infant mortality resulting previously established cohorts from 1965 to be non-existent. [Link](yomu://content/annotation/65693D9B-BDB1-4A90-8E75-9274C7FA1A3B)
 -  We now know that people believe that life in low-income countries is much worse than it actually is. [Link](yomu://content/annotation/B1CA7700-F19B-4020-94DE-EA15AD87EBF4)
-> [!question]
+
+{: .question}
 > **Of the world population, what percentage lives in low-income countries?**
 > The majority suggested the answer was 50 percent or more. The average guess was 59 percent.
 > The real figure is 9 percent. [Link](yomu://content/annotation/D6DA56EE-A64A-45A9-974E-7537BA91576D)
 
-> [!important]
+{: .important}
 > human beings have a strong dramatic instinct toward binary thinking [Link](yomu://content/annotation/903EC030-39EB-4852-AA09-8F31BA6DCF96)
 - The gap instinct makes us imagine division where there is just a smooth range, difference where there is convergence, and conflict where there is [Link](yomu://content/annotation/3AAD620D-2B64-4194-98FA-41AFD697E0AC)
 -  We are naturally drawn to extreme examples, and they are easy to recall [Link](yomu://content/annotation/D52EE65E-3840-43B3-A427-DF1843CC6909)

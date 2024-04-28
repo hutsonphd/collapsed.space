@@ -11,18 +11,18 @@ callouts:
   abstract:
     title: "  Abstract"
     color: blue
-  highlight:
-    color: yellow
   important:
-    title: "  Important"
-    color: grey-lt
-  new:
-    title: "  New"
-    color: primary
-  warning:
-    title: "  Warning"
+    title: "  Important"
     color: red
-
+  insight:
+    title: "  Insight"
+    color: aqua
+  critical:
+    title: "  Critical"
+    color: red
+  question:
+    title: " Question"
+    color: green
 search_enabled: true
 heading_anchors: true
 nav_enabled: true

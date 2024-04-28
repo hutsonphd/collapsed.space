@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'AvenirNextLTPro-Regular';
-  src: url(./AvenirNextLTPro/AvenirNextLTPro-Regular.ttf) format('truetype');
+  src: url(/assets/fonts/AvenirNextLTPro/AvenirNextLTPro-Regular.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'AvenirNextLTPro-Bold';
-  src: url(./AvenirNextLTPro/AvenirNextLTPro-Bold.ttf) format('truetype');
+  src: url(/assets/fonts/AvenirNextLTPro/AvenirNextLTPro-Bold.ttf) format('truetype');
 }

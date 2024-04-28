@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Home
+parent: Books
 id: https://www.goodreads.com/book/show/26535513
 fullTitle: Storytelling with Data A Data Visualization Guide for Business Professionals
 pages: '288'

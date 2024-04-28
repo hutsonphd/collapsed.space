@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Home
+parent: Books
 id: https://www.goodreads.com/book/show/36185940
 fullTitle: >-
   Factfulness Ten Reasons Were Wrong About the World—and Why Things Are Better

@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Home
+parent: Books
 id: https://www.goodreads.com/book/show/137937505
 fullTitle: Fearless How to Transform a Services Culture and Successfully Productize
 pages: 247

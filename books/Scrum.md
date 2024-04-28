@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Home
+parent: Books
 id: https://www.goodreads.com/book/show/19288230
 fullTitle: Scrum The Art of Doing Twice the Work in Half the Time
 pages: '237'

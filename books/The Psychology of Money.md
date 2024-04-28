@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Home
+parent: Books
 id: https://www.goodreads.com/book/show/41881472
 fullTitle: The Psychology of Money
 pages: '252'

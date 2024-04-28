@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Home
+parent: Books
 id: "50776459"
 fullTitle: Shape Up Stop Running in Circles and Ship Work that Matters
 pages: "133"

@@ -1,7 +1,7 @@
 ---
 title: Business Model Generation
 layout: default
-parent: Home
+parent: Books
 id: https://www.goodreads.com/book/show/7935732
 fullTitle: Business Model Generation A Handbook for Visionaries Game Changers and Challengers The Strategyzer series
 pages: 288

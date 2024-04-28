@@ -3,7 +3,7 @@
 @import url("https://kit.fontawesome.com/e3aa188c6e.css");
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
-$body-font-family: 'AvenirNextLTPro-Regular', "Font Awesome 6 Pro", "Segoe UI Emoji" !important;
+$body-font-family: 'Avenir Next', "Font Awesome 6 Pro", "Segoe UI Emoji" !important;
 $mono-font-family: 'Source Code Pro' !important;
 $gray-1: #5C6370;
 $gray-2: #abb2bf;
@@ -70,7 +70,7 @@ $table-background-color: $white !default;
 $search-result-preview-color: $grey-dk-300;
 
 blockquote.abstract::before, strong, h1, h2, h3, h4, h5 {
-    font-family: 'AvenirNextLTPro-Bold', 'Font Awesome 6 Pro' !important;
+    font-family: 'Avenir Next Demi Bold', 'Font Awesome 6 Pro' !important;
 }
 
 h1 {

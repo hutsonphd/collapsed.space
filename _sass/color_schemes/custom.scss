@@ -1,45 +1,46 @@
 @import "./color_schemes/dark";
 // @import "/assets/fonts/fonts.css";
+@import url('https://fonts.cdnfonts.com/css/avenir-lt-pro');
 @import url("https://kit.fontawesome.com/e3aa188c6e.css");
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
-@font-face {
-    font-family: 'Avenir Next';
-    src: url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNext-Regular.ttf') format('truetype'),
-         url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNext-Regular.eot') format('embedded-opentype'),
-         url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNext-Regular.woff2') format('woff2'),
-         url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNext-Regular.svg') format('svg');
-  }
+// @font-face {
+//     font-family: 'Avenir Next';
+//     src: url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNext-Regular.ttf') format('truetype'),
+//          url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNext-Regular.eot') format('embedded-opentype'),
+//          url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNext-Regular.woff2') format('woff2'),
+//          url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNext-Regular.svg') format('svg');
+//   }
   
-  @font-face {
-    font-family: 'Avenir Next Demi';
-    src: url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNextLTPro-Demi.ttf') format('truetype'),
-         url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNextLTPro-Demi.eot') format('embedded-opentype'),
-         url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNextLTPro-Demi.woff') format('woff'),
-         url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNextLTPro-Demi.woff2') format('woff2'),
-         url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNextLTPro-Demi.svg') format('svg');
-  }
+//   @font-face {
+//     font-family: 'Avenir Next Demi';
+//     src: url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNextLTPro-Demi.ttf') format('truetype'),
+//          url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNextLTPro-Demi.eot') format('embedded-opentype'),
+//          url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNextLTPro-Demi.woff') format('woff'),
+//          url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNextLTPro-Demi.woff2') format('woff2'),
+//          url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNextLTPro-Demi.svg') format('svg');
+//   }
   
-  @font-face {
-    font-family: 'Avenir Next Medium';
-    src: url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNext-Medium.ttf') format('truetype'),
-         url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNext-Medium.eot') format('embedded-opentype'),
-         url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNext-Medium.woff2') format('woff2'),
-         url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNext-Medium.svg') format('svg');
-  }
+//   @font-face {
+//     font-family: 'Avenir Next Medium';
+//     src: url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNext-Medium.ttf') format('truetype'),
+//          url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNext-Medium.eot') format('embedded-opentype'),
+//          url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNext-Medium.woff2') format('woff2'),
+//          url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNext-Medium.svg') format('svg');
+//   }
   
-  @font-face {
-    font-family: 'Avenir Next Demi Bold';
-    src: url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNext-DemiBold.ttf') format('truetype'),
-         url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNext-DemiBold.eot') format('embedded-opentype'),
-         url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNext-DemiBold.woff') format('woff'),
-         url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNext-DemiBold.woff2') format('woff2'),
-         url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNext-DemiBold.svg') format('svg');
-  }
+//   @font-face {
+//     font-family: 'Avenir Next Demi Bold';
+//     src: url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNext-DemiBold.ttf') format('truetype'),
+//          url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNext-DemiBold.eot') format('embedded-opentype'),
+//          url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNext-DemiBold.woff') format('woff'),
+//          url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNext-DemiBold.woff2') format('woff2'),
+//          url('https://cdn.ventmere.com/edifier-dev/fonts-avenir/AvenirNext-DemiBold.svg') format('svg');
+//   }
 
 
 
-$body-font-family: 'Avenir Next', "Font Awesome 6 Pro", "Segoe UI Emoji" !important;
+$body-font-family: 'Avenir Next', 'Avenir LT Pro', "Font Awesome 6 Pro", "Segoe UI Emoji" !important;
 $mono-font-family: 'Source Code Pro' !important;
 $gray-1: #5C6370;
 $gray-2: #abb2bf;
@@ -105,9 +106,9 @@ $feedback-color: darken($grey-lt-100, 3%);
 $table-background-color: $white !default;
 $search-result-preview-color: $grey-dk-300;
 
-blockquote.abstract::before, strong, h1, h2, h3, h4, h5 {
-    font-family: 'Avenir Next Demi Bold', 'Font Awesome 6 Pro' !important;
-}
+// blockquote.abstract::before, strong, h1, h2, h3, h4, h5 {
+//     // font-family: 'Avenir Nex 'Font Awesome 6 Pro' !important;
+// }
 
 h1 {
     color: $blue !important;

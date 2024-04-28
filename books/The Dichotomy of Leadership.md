@@ -13,18 +13,6 @@ avgRating: 4.36
 tags:
   - book
 ---
-
-  - "[[Leadership Principles]]"
-  - "[[Extreme Ownership]]"
-  - "[[Team Management]]"
-  - "[[Decision Making]]"
-  - "[[Military Strategy]]"
-  - "[[Leadership Training]]"
-  - "[[Organizational Behavior]]"
-  - "[[Humility in Leadership]]"
-  - "[[Workplace Accountability]]"
-  - "[[Conflict Resolution]]"
----
 ![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523163610l/38714388._SY475_.jpg)
 
 {: .abstract}

@@ -1,28 +1,7 @@
 ---
+title: Influence
 layout: default
 parent: Books
-id: https://www.goodreads.com/book/show/28815
-fullTitle: Influence The Psychology of Persuasion
-pages: 320
-cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391026083l/28815.jpg
-datePublished: 1984-01-01
-title: Influence
-author:
-  - "[[Robert B. Cialdini]]"
-avgRating: 4.21
-tags:
-  - book
-relations:
-  - "[[Psychology of Persuasion]]"
-  - "[[Influence and Behavior]]"
-  - "[[Human Decision Making]]"
-  - "[[Reciprocity in Social Interactions]]"
-  - "[[Commitment and Consistency]]"
-  - "[[Social Proof Concept]]"
-  - "[[Power of Liking]]"
-  - "[[Authority Influence]]"
-  - "[[Scarcity Principle]]"
-  - "[[Behavioral Psychology]]"
 ---
 ![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391026083l/28815.jpg)
 

@@ -2,27 +2,6 @@
 title: Business Model Generation
 layout: default
 parent: Books
-id: https://www.goodreads.com/book/show/7935732
-fullTitle: Business Model Generation A Handbook for Visionaries Game Changers and Challengers The Strategyzer series
-pages: 288
-cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407707076l/7935732.jpg
-datePublished: 2010-01-01
-author:
-  - "[[Alexander Osterwalder]]"
-avgRating: 4.21
-tags:
-  - book
-relations:
-  - "[[Business Strategy]]"
-  - "[[Entrepreneurship]]"
-  - "[[Startups]]"
-  - "[[Marketing]]"
-  - "[[Product Development]]"
-  - "[[Customer Acquisition]]"
-  - "[[Business Finance]]"
-  - "[[Competitive Analysis]]"
-  - "[[Innovation]]"
-  - "[[Leadership in Business]]"
 ---
 ![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407707076l/7935732.jpg)
 
@@ -34,7 +13,8 @@ relations:
 # Takeaways
 ## Canvas
 - A **business model** describes the rationale of how an organizations creates, delivers, and captures value
-![[Pasted image 20231028213530.png]]
+![](/assets/images/Pasted image 20231028213530.png)
+
 ### Key elements
 - **Customer segment**: An organization serves one or several customer segments
 	- **CS** defines that different groups of people or organizations an enterprise aims to reach.
@@ -81,20 +61,25 @@ relations:
 	- Describes all costs incurred to operate a business model
 	- What are the most important costs inherent in our business model? Which **KR** are most expensive? Which **KA** are most expensive? Are you cost-drive or value-driven?
 	- Types of Costs: Fixed, Variable, Economics of Scale, Economics of Scope
-![[Pasted image 20231028213911.png]]
+![](/assets/images/Pasted image 20231028213911.png)
+
 ## Patterns
+
 ### Unbundling Business Modules
 - Unbundling the corporation derives from the concept of three types of businesses: customer relationship business, product innovation businesses, and infrastructure businesses
 - Ideally, the types of businesses are unbundled into separate entities and do not co-exist in a single corporation
+
 ### The Long Tail
 - Selling many niche items where a small number of bestsellers account for most revenues
 - Low inventory costs and strong platforms to make niche content readily available to interested buyers.
 - Examples are selling books and Legos
+
 ### Multi-sided Platforms
 - Brings together 2+ distinct and interdependent groups of customers
 - Value is derived from one group _only if_ the groups are present thereby facilitating interactions between different groups
 - Grows in value to the extent that more users are attracted to the platform (aka network effect)
 - Examples include Game consoles, App store, Social Media
+
 ### Free as a Business Model
 - At one substantial **CS** is able to _continuously benefit_ from a free of charge offer.
 - Non-paying customers are financed by another part of the business model or by another **CS**.

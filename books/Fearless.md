@@ -1,28 +1,7 @@
 ---
+title: Fearless
 layout: default
 parent: Books
-id: https://www.goodreads.com/book/show/137937505
-fullTitle: Fearless How to Transform a Services Culture and Successfully Productize
-pages: 247
-cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682806032l/137937505._SY475_.jpg
-datePublished: ""
-title: Fearless
-author:
-  - "[[Eisha Armstrong]]"
-avgRating: 5
-tags:
-  - book
-relations:
-  - "[[Business Transformation]]"
-  - "[[Cultural Change]]"
-  - "[[Productization Strategy]]"
-  - "[[Change Management]]"
-  - "[[B2B Services]]"
-  - "[[Product-Friendly Culture]]"
-  - "[[Organizational Structure]]"
-  - "[[Talent Management]]"
-  - "[[Performance Measures and Incentives]]"
-  - "[[Product Governance]]"
 ---
 ![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682806032l/137937505._SY475_.jpg)
 

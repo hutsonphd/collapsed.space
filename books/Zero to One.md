@@ -1,28 +1,7 @@
 ---
+title: Zero to One
 layout: default
 parent: Books
-id: https://www.goodreads.com/book/show/18050143
-fullTitle: Zero to One Notes on Startups or How to Build the Future
-pages: 195
-cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630663027l/18050143.jpg
-datePublished: 2014-01-01
-title: Zero to One
-author:
-  - "[[Peter Thiel]]"
-avgRating: 4.17
-tags:
-  - book
-relations:
-  - "[[Entrepreneurship]]"
-  - "[[Startups]]"
-  - "[[Business Strategy]]"
-  - "[[Innovation]]"
-  - "[[Monopoly vs. Competition]]"
-  - "[[Venture Capital]]"
-  - "[[Power Law Distribution]]"
-  - "[[Future Planning]]"
-  - "[[Business Growth Scaling]]"
-  - "[[Tech Industry Insights]]"
 ---
 ![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630663027l/18050143.jpg)
 

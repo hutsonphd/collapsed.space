@@ -1,18 +1,9 @@
 ---
+title: Factfulness
 layout: default
 parent: Books
-id: https://www.goodreads.com/book/show/36185940
-fullTitle: >-
-  Factfulness Ten Reasons Were Wrong About the World—and Why Things Are Better
-  Than You Think
-pages: '341'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520379402l/36185940._SY475_.jpg
-datePublished: '2018-01-01'
-title: Factfulness
-author: '[[Hans Rosling]]'
-avgRating: '4.49'
 ---
+
 ![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520379402l/36185940._SY475_.jpg)
 
 {: .abstract}

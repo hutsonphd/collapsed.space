@@ -1,28 +1,7 @@
 ---
+title: The First 90 Days
 layout: default
 parent: Books
-id: https://goodreads.com/book/show/15824358
-fullTitle: The First 90 Days Critical Success Strategies for New Leaders at All Levels
-pages: '304'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354903827l/15824358.jpg
-datePublished: '2003-01-01'
-title: The First 90 Days
-author: '[[Michael D. Watkins]]'
-avgRating: '3.85'
-tags:
-- book
-relations:
-  - "[[Leadership Transitions]]"
-  - "[[Career Development]]"
-  - "[[Strategic Planning]]"
-  - "[[Organizational Culture]]"
-  - "[[Stakeholder Management]]"
-  - "[[Team Building]]"
-  - "[[Work-Life Balance]]"
-  - "[[Continuous Learning]]"
-  - "[[Change Management]]"
-  - "[[Personal Growth]]"
 ---
 ![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354903827l/15824358.jpg)
 

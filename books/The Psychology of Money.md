@@ -1,28 +1,7 @@
 ---
+title: The Psychology of Money
 layout: default
 parent: Books
-id: https://www.goodreads.com/book/show/41881472
-fullTitle: The Psychology of Money
-pages: '252'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581527774l/41881472._SY475_.jpg
-datePublished: '2020-01-01'
-title: The Psychology of Money
-author: '[[Morgan Housel]]'
-avgRating: '4.34'
-tags: 
-- book
-relations:
-  - "[[Personal Finance]]"
-  - "[[Behavioral Economics]]"
-  - "[[Financial Planning]]"
-  - "[[Wealth Management]]"
-  - "[[Financial Independence]]"
-  - "[[Risk Management]]"
-  - "[[Investment Strategies]]"
-  - "[[Saving and Spending Habits]]"
-  - "[[Compounding Interest]]"
-  - "[[Emotional Intelligence in Finance]]"
 ---
 ![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581527774l/41881472._SY475_.jpg)
 

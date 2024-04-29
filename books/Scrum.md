@@ -1,28 +1,7 @@
 ---
+title: Scrum
 layout: default
 parent: Books
-id: https://www.goodreads.com/book/show/19288230
-fullTitle: Scrum The Art of Doing Twice the Work in Half the Time
-pages: '237'
-cover: >-
-  https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393221649l/19288230.jpg
-datePublished: '2014-01-01'
-title: Scrum
-author: '[[Jeff Sutherland]]'
-avgRating: '4.13'
-tags:
-- book
-relations:
-  - "[[Scrum Methodology]]"
-  - "[[Project Management]]"
-  - "[[Team Dynamics]]"
-  - "[[Time Management]]"
-  - "[[Productivity Enhancement]]"
-  - "[[Work Efficiency]]"
-  - "[[Business Strategy]]"
-  - "[[Organizational Behavior]]"
-  - "[[Leadership]]"
-  - "[[Agile Development Practices]]"
 ---
 ![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393221649l/19288230.jpg)
 

@@ -1,29 +1,9 @@
 ---
+title: Escape Velocity
 layout: default
 parent: Books
-id: https://www.goodreads.com/book/show/51152365
-fullTitle: Escape Velocity Better Metrics for Agile Teams
-pages: 178
-cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581398912l/51152365.jpg
-datePublished: ""
-title: Escape Velocity
-author:
-  - "[[Doc Norton]]"
-avgRating: 3.75
-tags:
-  - book
-relations:
-  - "[[Agile Software Delivery]]"
-  - "[[Business Strategy]]"
-  - "[[Innovation]]"
-  - "[[Market Segmentation]]"
-  - "[[Value Propositions]]"
-  - "[[Product Lifecycle Management]]"
-  - "[[Business Execution]]"
-  - "[[Continuous Improvement]]"
-  - "[[Company Branding]]"
-  - "[[Customer Loyalty]]"
 ---
+
 ![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581398912l/51152365.jpg)
 
 {: .abstract}

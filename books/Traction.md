@@ -1,28 +1,7 @@
 ---
+title: Traction
 layout: default
 parent: Books
-id: https://www.goodreads.com/book/show/8549192
-fullTitle: Traction
-pages: 
-cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1278520106l/8549192.jpg
-datePublished: 2007-01-01
-title: Traction
-author:
-  - "[[Gino Wickman]]"
-avgRating: 4.07
-tags:
-  - book
-relations:
-  - "[[Entrepreneurship]]"
-  - "[[Business Strategy]]"
-  - "[[Organizational Vision]]"
-  - "[[Leadership]]"
-  - "[[Business Growth]]"
-  - "[[Team Building]]"
-  - "[[Performance Metrics]]"
-  - "[[Business Processes]]"
-  - "[[Company Culture]]"
-  - "[[Core Values]]"
 ---
 ![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1278520106l/8549192.jpg)
 

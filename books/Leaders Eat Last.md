@@ -1,28 +1,7 @@
 ---
+title: Leaders Eat Last
 layout: default
 parent: Books
-id: https://www.goodreads.com/book/show/34879669
-fullTitle: Leaders Eat Last
-pages: undefined
-cover: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1400881733i/16144853.jpg
-datePublished: 2014-01-01
-title: Leaders Eat Last
-author:
-  - "[[Simon Sinek]]"
-avgRating: "4.08"
-tags:
-  - book
-relations:
-  - "[[Leadership]]"
-  - "[[Team Management]]"
-  - "[[Organizational Behavior]]"
-  - "[[Motivation and Reward Systems]]"
-  - "[[Trust Building]]"
-  - "[[Workplace Ethics]]"
-  - "[[Emotional Intelligence]]"
-  - "[[Employee Wellbeing]]"
-  - "[[Effective Communication]]"
-  - "[[Corporate Culture]]"
 ---
 ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1400881733i/16144853.jpg)
 

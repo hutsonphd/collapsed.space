@@ -4,8 +4,8 @@ theme: just-the-docs
 url: https://collapsed.space
 
 color_scheme: custom
-logo: "/assets/svg/logo.svg"
-favicon_ico: "/assets/svg/favicon.svg"
+logo: "/assets/svg/collapsed-space-full.svg"
+favicon_ico: "/assets/svg/collapsed-space.svg"
 
 callouts:
   abstract:

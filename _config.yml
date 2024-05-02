@@ -9,7 +9,7 @@ favicon_ico: "/assets/svg/collapsed-space.svg"
 
 callouts:
   abstract:
-    title: "  Abstract"
+    title: "   Abstract"
     color: blue
   important:
     title: "  Important"

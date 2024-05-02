@@ -5,4 +5,6 @@ nav_order: 2
 has_children: true
 has_toc: true
 ---
-# Books
+#  Book Notes
+
+{: .text-delta}

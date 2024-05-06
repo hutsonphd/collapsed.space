@@ -4,7 +4,6 @@ fullTitle: Business Model Generation A Handbook for Visionaries Game Changers an
 pages: 288
 cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407707076l/7935732.jpg
 datePublished: 2010-01-01
-title: Business Model Generation Alt
 author:
   - "[Alexander Osterwalder](Alexander%20Osterwalder.md)"
 avgRating: 4.21
@@ -21,9 +20,6 @@ relations:
   - "[Competitive Analysis](Competitive%20Analysis.md)"
   - "[Innovation](Innovation.md)"
   - "[Leadership in Business](Leadership%20in%20Business.md)"
-share: "true"
-layout: default
-parent: Books
 ---
 ![cover|150](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407707076l/7935732.jpg)
 > [!abstract]-

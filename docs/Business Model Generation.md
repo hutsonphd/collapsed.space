@@ -4,7 +4,7 @@ fullTitle: Business Model Generation A Handbook for Visionaries Game Changers an
 pages: 288
 cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407707076l/7935732.jpg
 datePublished: 2010-01-01
-title: Business Model Generation
+title: Business Model Generation Alt
 author:
   - "[Alexander Osterwalder](Alexander%20Osterwalder.md)"
 avgRating: 4.21
@@ -22,6 +22,8 @@ relations:
   - "[Innovation](Innovation.md)"
   - "[Leadership in Business](Leadership%20in%20Business.md)"
 share: "true"
+layout: default
+parent: Books
 ---
 ![cover|150](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407707076l/7935732.jpg)
 > [!abstract]-
@@ -29,7 +31,7 @@ share: "true"
 > 
 > _Business Model Generation_ features practical innovation techniques used today by leading consultants and companies worldwide, including 3M, Ericsson, Capgemini, Deloitte, and others. Designed for doers, it is for those ready to abandon outmoded thinking and embrace new models of value creation: for executives, consultants, entrepreneurs, and leaders of all organizations. If you're ready to change the rules, you belong to -the business model generation!-
 
-
+/git
 # Takeaways
 ## Canvas
 - A **business model** describes the rationale of how an organizations creates, delivers, and captures value

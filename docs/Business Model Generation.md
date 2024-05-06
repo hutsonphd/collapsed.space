@@ -1,4 +1,7 @@
 ---
+title: Obsidian Test
+layout: obsidian
+parent: Books
 id: https://www.goodreads.com/book/show/7935732
 fullTitle: Business Model Generation A Handbook for Visionaries Game Changers and Challengers The Strategyzer series
 pages: 288
@@ -27,7 +30,7 @@ relations:
 > 
 > _Business Model Generation_ features practical innovation techniques used today by leading consultants and companies worldwide, including 3M, Ericsson, Capgemini, Deloitte, and others. Designed for doers, it is for those ready to abandon outmoded thinking and embrace new models of value creation: for executives, consultants, entrepreneurs, and leaders of all organizations. If you're ready to change the rules, you belong to -the business model generation!-
 
-/git
+
 # Takeaways
 ## Canvas
 - A **business model** describes the rationale of how an organizations creates, delivers, and captures value

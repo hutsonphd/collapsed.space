@@ -25,7 +25,7 @@ layout: obsidian
 share: "true"
 parent: Books
 ---
-![cover|150](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581398912l/51152365.jpg)
+![cover](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581398912l/51152365.jpg)
 
 > [!abstract]-
 > Velocity is the most commonly used metric in agile software delivery. It is also perhaps the least effective metrics in agile software delivery. In &quot;Escape Velocity&quot;, Doc Norton walks the reader through common issues with metrics and how to avoid them, alternative metrics that not only help agile teams perform better, but enable them to continuously improve, and techniques for forecasting that vastly outperform the use of velocity. In a quirky, casual, and information dense style, Doc Norton makes the topic of tracking data entertaining and shows us how to be more effective in the pursuit of excellent software.

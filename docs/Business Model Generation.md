@@ -1,5 +1,5 @@
 ---
-title: Obsidian Test
+title: Business Model Generation
 layout: obsidian
 parent: Books
 id: https://www.goodreads.com/book/show/7935732

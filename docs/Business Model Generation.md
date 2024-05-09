@@ -82,6 +82,7 @@ relations:
 	- What are the most important costs inherent in our business model? Which **KR** are most expensive? Which **KA** are most expensive? Are you cost-drive or value-driven?
 	- Types of Costs: Fixed, Variable, Economics of Scale, Economics of Scope
 ![Pasted image 20231028213911.png](../assets/images/Pasted%20image%2020231028213911.png)
+
 ## Patterns
 ### Unbundling Business Modules
 - Unbundling the corporation derives from the concept of three types of businesses: customer relationship business, product innovation businesses, and infrastructure businesses

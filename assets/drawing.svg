@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   height="1000"
+   width="1000"
+   sodipodi:docname="drawing.svg"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.3"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5"
+     inkscape:cx="499"
+     inkscape:cy="499"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer4"
+     showgrid="false"
+     showguides="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="1080"
+     inkscape:window-y="621"
+     inkscape:window-maximized="0"
+     showborder="true"
+     inkscape:showpageshadow="false"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050">
+    <sodipodi:guide
+       id="guide_baseline"
+       inkscape:label="baseline"
+       position="0,253"
+       orientation="0,1"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       id="guide_ascender"
+       inkscape:label="ascender"
+       position="0,945"
+       orientation="0,1"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       id="guide_caps"
+       inkscape:label="caps"
+       position="0,896"
+       orientation="0,1"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       id="guide_xheight"
+       inkscape:label="xheight"
+       position="0,729"
+       orientation="0,1"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       id="guide_descender"
+       inkscape:label="descender"
+       position="0,28"
+       orientation="0,1"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <linearGradient
+       id="swatch200"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop200" />
+    </linearGradient>
+    <font
+       horiz-adv-x="1000"
+       id="font1"
+       inkscape:label="Hutson">
+      <font-face
+         units-per-em="1000"
+         ascent="750"
+         cap-height="600"
+         x-height="400"
+         descent="200"
+         id="font-face1"
+         font-family="SVGFont 1" />
+      <missing-glyph
+         d="M0,0h1000v1000h-1000z"
+         id="missing-glyph1" />
+      <glyph
+         glyph-name=""
+         unicode=" "
+         id="glyph1" />
+      <glyph
+         glyph-name=""
+         unicode="!"
+         id="glyph2" />
+      <glyph
+         glyph-name=""
+         unicode="&quot;"
+         id="glyph3" />
+      <glyph
+         glyph-name=""
+         unicode="#"
+         id="glyph4" />
+      <glyph
+         glyph-name=""
+         unicode="$"
+         id="glyph5" />
+      <glyph
+         glyph-name=""
+         unicode="%"
+         id="glyph6" />
+      <glyph
+         glyph-name=""
+         unicode="&amp;"
+         id="glyph7" />
+      <glyph
+         glyph-name=""
+         unicode="'"
+         id="glyph8" />
+      <glyph
+         glyph-name=""
+         unicode="("
+         id="glyph9" />
+      <glyph
+         glyph-name=""
+         unicode=")"
+         id="glyph10" />
+      <glyph
+         glyph-name=""
+         unicode="*"
+         id="glyph11" />
+      <glyph
+         glyph-name=""
+         unicode="+"
+         id="glyph12" />
+      <glyph
+         glyph-name=""
+         unicode=","
+         id="glyph13" />
+      <glyph
+         glyph-name=""
+         unicode="-"
+         id="glyph14" />
+      <glyph
+         glyph-name=""
+         unicode="."
+         id="glyph15" />
+      <glyph
+         glyph-name=""
+         unicode="/"
+         id="glyph16" />
+      <glyph
+         glyph-name=""
+         unicode="0"
+         id="glyph17"
+         horiz-adv-x="0.00" />
+      <glyph
+         glyph-name=""
+         unicode="1"
+         id="glyph18" />
+      <glyph
+         glyph-name=""
+         unicode="2"
+         id="glyph19" />
+      <glyph
+         glyph-name=""
+         unicode="3"
+         id="glyph20" />
+      <glyph
+         glyph-name=""
+         unicode="4"
+         id="glyph21" />
+      <glyph
+         glyph-name=""
+         unicode="5"
+         id="glyph22" />
+      <glyph
+         glyph-name=""
+         unicode="6"
+         id="glyph23" />
+      <glyph
+         glyph-name=""
+         unicode="7"
+         id="glyph24" />
+      <glyph
+         glyph-name=""
+         unicode="8"
+         id="glyph25" />
+      <glyph
+         glyph-name=""
+         unicode="9"
+         id="glyph26" />
+      <glyph
+         glyph-name=""
+         unicode=":"
+         id="glyph27" />
+      <glyph
+         glyph-name=""
+         unicode=";"
+         id="glyph28" />
+      <glyph
+         glyph-name=""
+         unicode="&lt;"
+         id="glyph29" />
+      <glyph
+         glyph-name=""
+         unicode="="
+         id="glyph30" />
+      <glyph
+         glyph-name=""
+         unicode="&gt;"
+         id="glyph31" />
+      <glyph
+         glyph-name=""
+         unicode="?"
+         id="glyph32" />
+      <glyph
+         glyph-name=""
+         unicode="@"
+         id="glyph33" />
+      <glyph
+         glyph-name=""
+         unicode="A"
+         id="glyph34" />
+      <glyph
+         glyph-name=""
+         unicode="B"
+         id="glyph35" />
+      <glyph
+         glyph-name=""
+         unicode="C"
+         id="glyph36" />
+      <glyph
+         glyph-name=""
+         unicode="D"
+         id="glyph37" />
+      <glyph
+         glyph-name=""
+         unicode="E"
+         id="glyph38" />
+      <glyph
+         glyph-name=""
+         unicode="F"
+         id="glyph39" />
+      <glyph
+         glyph-name=""
+         unicode="G"
+         id="glyph40" />
+      <glyph
+         glyph-name=""
+         unicode="H"
+         id="glyph41" />
+      <glyph
+         glyph-name=""
+         unicode="I"
+         id="glyph42" />
+      <glyph
+         glyph-name=""
+         unicode="J"
+         id="glyph43" />
+      <glyph
+         glyph-name=""
+         unicode="K"
+         id="glyph44" />
+      <glyph
+         glyph-name=""
+         unicode="L"
+         id="glyph45" />
+      <glyph
+         glyph-name=""
+         unicode="M"
+         id="glyph46" />
+      <glyph
+         glyph-name=""
+         unicode="N"
+         id="glyph47" />
+      <glyph
+         glyph-name=""
+         unicode="O"
+         id="glyph48" />
+      <glyph
+         glyph-name=""
+         unicode="P"
+         id="glyph49" />
+      <glyph
+         glyph-name=""
+         unicode="Q"
+         id="glyph50" />
+      <glyph
+         glyph-name=""
+         unicode="R"
+         id="glyph51" />
+      <glyph
+         glyph-name=""
+         unicode="S"
+         id="glyph52" />
+      <glyph
+         glyph-name=""
+         unicode="T"
+         id="glyph53" />
+      <glyph
+         glyph-name=""
+         unicode="U"
+         id="glyph54" />
+      <glyph
+         glyph-name=""
+         unicode="V"
+         id="glyph55" />
+      <glyph
+         glyph-name=""
+         unicode="W"
+         id="glyph56" />
+      <glyph
+         glyph-name=""
+         unicode="X"
+         id="glyph57" />
+      <glyph
+         glyph-name=""
+         unicode="Y"
+         id="glyph58" />
+      <glyph
+         glyph-name=""
+         unicode="Z"
+         id="glyph59" />
+      <glyph
+         glyph-name=""
+         unicode="["
+         id="glyph60" />
+      <glyph
+         glyph-name=""
+         unicode="\"
+         id="glyph61" />
+      <glyph
+         glyph-name=""
+         unicode="]"
+         id="glyph62" />
+      <glyph
+         glyph-name=""
+         unicode="^"
+         id="glyph63" />
+      <glyph
+         glyph-name=""
+         unicode="_"
+         id="glyph64" />
+      <glyph
+         glyph-name=""
+         unicode="`"
+         id="glyph65" />
+      <glyph
+         glyph-name=""
+         unicode="a"
+         id="glyph66" />
+      <glyph
+         glyph-name=""
+         unicode="b"
+         id="glyph67" />
+      <glyph
+         glyph-name=""
+         unicode="c"
+         id="glyph68" />
+      <glyph
+         glyph-name=""
+         unicode="d"
+         id="glyph69" />
+      <glyph
+         glyph-name=""
+         unicode="e"
+         id="glyph70" />
+      <glyph
+         glyph-name=""
+         unicode="f"
+         id="glyph71" />
+      <glyph
+         glyph-name=""
+         unicode="g"
+         id="glyph72" />
+      <glyph
+         glyph-name=""
+         unicode="h"
+         id="glyph73" />
+      <glyph
+         glyph-name=""
+         unicode="i"
+         id="glyph74" />
+      <glyph
+         glyph-name=""
+         unicode="j"
+         id="glyph75" />
+      <glyph
+         glyph-name=""
+         unicode="k"
+         id="glyph76" />
+      <glyph
+         glyph-name=""
+         unicode="l"
+         id="glyph77" />
+      <glyph
+         glyph-name=""
+         unicode="m"
+         id="glyph78" />
+      <glyph
+         glyph-name=""
+         unicode="n"
+         id="glyph79" />
+      <glyph
+         glyph-name=""
+         unicode="o"
+         id="glyph80" />
+      <glyph
+         glyph-name=""
+         unicode="p"
+         id="glyph81" />
+      <glyph
+         glyph-name=""
+         unicode="q"
+         id="glyph82" />
+      <glyph
+         glyph-name=""
+         unicode="r"
+         id="glyph83" />
+      <glyph
+         glyph-name=""
+         unicode="s"
+         id="glyph84" />
+      <glyph
+         glyph-name=""
+         unicode="t"
+         id="glyph85" />
+      <glyph
+         glyph-name=""
+         unicode="u"
+         id="glyph86" />
+      <glyph
+         glyph-name=""
+         unicode="v"
+         id="glyph87" />
+      <glyph
+         glyph-name=""
+         unicode="w"
+         id="glyph88" />
+      <glyph
+         glyph-name=""
+         unicode="x"
+         id="glyph89" />
+      <glyph
+         glyph-name=""
+         unicode="y"
+         id="glyph90" />
+      <glyph
+         glyph-name=""
+         unicode="z"
+         id="glyph91" />
+      <glyph
+         glyph-name=""
+         unicode="{"
+         id="glyph92" />
+      <glyph
+         glyph-name=""
+         unicode="|"
+         id="glyph93" />
+      <glyph
+         glyph-name=""
+         unicode="}"
+         id="glyph94" />
+      <glyph
+         glyph-name=""
+         unicode="~"
+         id="glyph95" />
+      <glyph
+         glyph-name=""
+         unicode=" "
+         id="glyph96" />
+      <glyph
+         glyph-name=""
+         unicode="¡"
+         id="glyph97" />
+      <glyph
+         glyph-name=""
+         unicode="¢"
+         id="glyph98" />
+      <glyph
+         glyph-name=""
+         unicode="£"
+         id="glyph99" />
+      <glyph
+         glyph-name=""
+         unicode="¤"
+         id="glyph100" />
+      <glyph
+         glyph-name=""
+         unicode="¥"
+         id="glyph101" />
+      <glyph
+         glyph-name=""
+         unicode="¦"
+         id="glyph102" />
+      <glyph
+         glyph-name=""
+         unicode="§"
+         id="glyph103" />
+      <glyph
+         glyph-name=""
+         unicode="¨"
+         id="glyph104" />
+      <glyph
+         glyph-name=""
+         unicode="©"
+         id="glyph105" />
+      <glyph
+         glyph-name=""
+         unicode="ª"
+         id="glyph106" />
+      <glyph
+         glyph-name=""
+         unicode="«"
+         id="glyph107" />
+      <glyph
+         glyph-name=""
+         unicode="¬"
+         id="glyph108" />
+      <glyph
+         glyph-name=""
+         unicode="­"
+         id="glyph109" />
+      <glyph
+         glyph-name=""
+         unicode="®"
+         id="glyph110" />
+      <glyph
+         glyph-name=""
+         unicode="¯"
+         id="glyph111" />
+      <glyph
+         glyph-name=""
+         unicode="°"
+         id="glyph112" />
+      <glyph
+         glyph-name=""
+         unicode="±"
+         id="glyph113" />
+      <glyph
+         glyph-name=""
+         unicode="²"
+         id="glyph114" />
+      <glyph
+         glyph-name=""
+         unicode="³"
+         id="glyph115" />
+      <glyph
+         glyph-name=""
+         unicode="´"
+         id="glyph116" />
+      <glyph
+         glyph-name=""
+         unicode="µ"
+         id="glyph117" />
+      <glyph
+         glyph-name=""
+         unicode="¶"
+         id="glyph118" />
+      <glyph
+         glyph-name=""
+         unicode="·"
+         id="glyph119" />
+      <glyph
+         glyph-name=""
+         unicode="¸"
+         id="glyph120" />
+      <glyph
+         glyph-name=""
+         unicode="¹"
+         id="glyph121" />
+      <glyph
+         glyph-name=""
+         unicode="º"
+         id="glyph122" />
+      <glyph
+         glyph-name=""
+         unicode="»"
+         id="glyph123" />
+      <glyph
+         glyph-name=""
+         unicode="¼"
+         id="glyph124" />
+      <glyph
+         glyph-name=""
+         unicode="½"
+         id="glyph125" />
+      <glyph
+         glyph-name=""
+         unicode="¾"
+         id="glyph126" />
+      <glyph
+         glyph-name=""
+         unicode="¿"
+         id="glyph127" />
+      <glyph
+         glyph-name=""
+         unicode="À"
+         id="glyph128" />
+      <glyph
+         glyph-name=""
+         unicode="Á"
+         id="glyph129" />
+      <glyph
+         glyph-name=""
+         unicode="Â"
+         id="glyph130" />
+      <glyph
+         glyph-name=""
+         unicode="Ã"
+         id="glyph131" />
+      <glyph
+         glyph-name=""
+         unicode="Ä"
+         id="glyph132" />
+      <glyph
+         glyph-name=""
+         unicode="Å"
+         id="glyph133" />
+      <glyph
+         glyph-name=""
+         unicode="Æ"
+         id="glyph134" />
+      <glyph
+         glyph-name=""
+         unicode="Ç"
+         id="glyph135" />
+      <glyph
+         glyph-name=""
+         unicode="È"
+         id="glyph136" />
+      <glyph
+         glyph-name=""
+         unicode="É"
+         id="glyph137" />
+      <glyph
+         glyph-name=""
+         unicode="Ê"
+         id="glyph138" />
+      <glyph
+         glyph-name=""
+         unicode="Ë"
+         id="glyph139" />
+      <glyph
+         glyph-name=""
+         unicode="Ì"
+         id="glyph140" />
+      <glyph
+         glyph-name=""
+         unicode="Í"
+         id="glyph141" />
+      <glyph
+         glyph-name=""
+         unicode="Î"
+         id="glyph142" />
+      <glyph
+         glyph-name=""
+         unicode="Ï"
+         id="glyph143" />
+      <glyph
+         glyph-name=""
+         unicode="Ð"
+         id="glyph144" />
+      <glyph
+         glyph-name=""
+         unicode="Ñ"
+         id="glyph145" />
+      <glyph
+         glyph-name=""
+         unicode="Ò"
+         id="glyph146" />
+      <glyph
+         glyph-name=""
+         unicode="Ó"
+         id="glyph147" />
+      <glyph
+         glyph-name=""
+         unicode="Ô"
+         id="glyph148" />
+      <glyph
+         glyph-name=""
+         unicode="Õ"
+         id="glyph149" />
+      <glyph
+         glyph-name=""
+         unicode="Ö"
+         id="glyph150" />
+      <glyph
+         glyph-name=""
+         unicode="×"
+         id="glyph151" />
+      <glyph
+         glyph-name=""
+         unicode="Ø"
+         id="glyph152" />
+      <glyph
+         glyph-name=""
+         unicode="Ù"
+         id="glyph153" />
+      <glyph
+         glyph-name=""
+         unicode="Ú"
+         id="glyph154" />
+      <glyph
+         glyph-name=""
+         unicode="Û"
+         id="glyph155" />
+      <glyph
+         glyph-name=""
+         unicode="Ü"
+         id="glyph156" />
+      <glyph
+         glyph-name=""
+         unicode="Ý"
+         id="glyph157" />
+      <glyph
+         glyph-name=""
+         unicode="Þ"
+         id="glyph158" />
+      <glyph
+         glyph-name=""
+         unicode="ß"
+         id="glyph159" />
+      <glyph
+         glyph-name=""
+         unicode="à"
+         id="glyph160" />
+      <glyph
+         glyph-name=""
+         unicode="á"
+         id="glyph161" />
+      <glyph
+         glyph-name=""
+         unicode="â"
+         id="glyph162" />
+      <glyph
+         glyph-name=""
+         unicode="ã"
+         id="glyph163" />
+      <glyph
+         glyph-name=""
+         unicode="ä"
+         id="glyph164" />
+      <glyph
+         glyph-name=""
+         unicode="å"
+         id="glyph165" />
+      <glyph
+         glyph-name=""
+         unicode="æ"
+         id="glyph166" />
+      <glyph
+         glyph-name=""
+         unicode="ç"
+         id="glyph167" />
+      <glyph
+         glyph-name=""
+         unicode="è"
+         id="glyph168" />
+      <glyph
+         glyph-name=""
+         unicode="é"
+         id="glyph169" />
+      <glyph
+         glyph-name=""
+         unicode="ê"
+         id="glyph170" />
+      <glyph
+         glyph-name=""
+         unicode="ë"
+         id="glyph171" />
+      <glyph
+         glyph-name=""
+         unicode="ì"
+         id="glyph172" />
+      <glyph
+         glyph-name=""
+         unicode="í"
+         id="glyph173" />
+      <glyph
+         glyph-name=""
+         unicode="î"
+         id="glyph174" />
+      <glyph
+         glyph-name=""
+         unicode="ï"
+         id="glyph175" />
+      <glyph
+         glyph-name=""
+         unicode="ð"
+         id="glyph176" />
+    </font>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch200"
+       id="linearGradient200"
+       x1="426.15234"
+       y1="427.6377"
+       x2="434.05078"
+       y2="427.6377"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1"
+     style="display:none"
+     sodipodi:insensitive="true" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="display:none"
+     sodipodi:insensitive="true" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 3"
+     style="display:none"
+     sodipodi:insensitive="true" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Hutson">
+    <g
+       inkscape:groupmode="layer"
+       id="layer29"
+       inkscape:label="U+000047 G">
+      <path
+         d=""
+         id="path200" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer28"
+       inkscape:label="U+000046 F"
+       style="display:none"
+       sodipodi:insensitive="true">
+      <path
+         d=""
+         id="path199" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer27"
+       inkscape:label="U+000045 E"
+       style="display:none"
+       sodipodi:insensitive="true">
+      <path
+         d=""
+         id="path198" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer26"
+       inkscape:label="U+000044 D"
+       style="display:none"
+       sodipodi:insensitive="true">
+      <path
+         d=""
+         id="path197" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer25"
+       inkscape:label="U+000043 C"
+       style="display:none"
+       sodipodi:insensitive="true">
+      <path
+         d=""
+         id="path196" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer24"
+       inkscape:label="U+000042 B"
+       style="display:none"
+       sodipodi:insensitive="true">
+      <path
+         d=""
+         id="path195" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer23"
+       inkscape:label="U+000041 A"
+       style="display:none"
+       sodipodi:insensitive="true">
+      <path
+         d=""
+         id="path194" />
+      <text
+         xml:space="preserve"
+         style="font-size:192px;fill:url(#linearGradient200)"
+         x="426"
+         y="432"
+         id="text200"><tspan
+           sodipodi:role="line"
+           id="tspan200"
+           x="426"
+           y="432"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:192px;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next';fill:url(#linearGradient200)">A</tspan></text>
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer22"
+       inkscape:label="U+000040 @"
+       style="display:none"
+       sodipodi:insensitive="true">
+      <path
+         d=""
+         id="path193" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer21"
+       inkscape:label="U+00003F ?"
+       style="display:none"
+       sodipodi:insensitive="true">
+      <path
+         d=""
+         id="path192" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer20"
+       inkscape:label="U+00003E &gt;"
+       style="display:none"
+       sodipodi:insensitive="true">
+      <path
+         d=""
+         id="path191" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer19"
+       inkscape:label="U+00003D ="
+       style="display:none"
+       sodipodi:insensitive="true">
+      <path
+         d=""
+         id="path190" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer18"
+       inkscape:label="U+00003C &lt;"
+       style="display:none"
+       sodipodi:insensitive="true">
+      <path
+         d=""
+         id="path189" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer17"
+       inkscape:label="U+00003B ;"
+       style="display:none"
+       sodipodi:insensitive="true">
+      <path
+         d=""
+         id="path188" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer16"
+       inkscape:label="U+00003A :"
+       style="display:none"
+       sodipodi:insensitive="true">
+      <path
+         d=""
+         id="path187" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer15"
+       inkscape:label="U+000039 9"
+       style="display:none"
+       sodipodi:insensitive="true">
+      <path
+         d=""
+         id="path186" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer14"
+       inkscape:label="U+000038 8"
+       style="display:none"
+       sodipodi:insensitive="true">
+      <path
+         d=""
+         id="path185" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer13"
+       inkscape:label="U+000037 7"
+       style="display:none"
+       sodipodi:insensitive="true">
+      <path
+         d=""
+         id="path184" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer12"
+       inkscape:label="U+000036 6"
+       style="display:none"
+       sodipodi:insensitive="true">
+      <path
+         d=""
+         id="path183" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer11"
+       inkscape:label="U+000035 5"
+       style="display:none"
+       sodipodi:insensitive="true">
+      <path
+         d=""
+         id="path182" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer10"
+       inkscape:label="U+000034 4"
+       style="display:none"
+       sodipodi:insensitive="true">
+      <path
+         d=""
+         id="path181" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer9"
+       inkscape:label="U+000033 3"
+       style="display:none"
+       sodipodi:insensitive="true">
+      <path
+         d=""
+         id="path180" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer8"
+       inkscape:label="U+000031 1"
+       style="display:none"
+       sodipodi:insensitive="true">
+      <path
+         d=""
+         id="path179" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer7"
+       inkscape:label="U+000030 0"
+       style="display:none"
+       sodipodi:insensitive="true">
+      <path
+         d=""
+         id="path178" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer6"
+       inkscape:label="U+000022 &quot;"
+       style="display:none"
+       sodipodi:insensitive="true">
+      <path
+         d=""
+         id="path177" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer5"
+       inkscape:label="U+000021 !"
+       style="display:none"
+       sodipodi:insensitive="true">
+      <path
+         d=""
+         id="path176"
+         inkscape:label="path176" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+---
+layout: default
+---
+{% assign replaced_content = content %}
+{% assign content_array = replaced_content | split: '[!' %}
+
+{% for item in content_array %}
+    {% if forloop.index > 1 %}
+        {% assign postparts = item | split: ']' %}
+        {% assign callout_type = postparts[0] %}
+        {% assign callout_syntax = '[!' | append: postparts[0] | append: ']' %}
+        {% assign callout_syntax_plus = callout_syntax | append: '+' %}
+        {% assign callout_syntax_minus = callout_syntax | append: '-' %}
+        {% assign preparts = item | split: '<blockquote>' %}
+        {% assign bq_part = '<blockquote class="' | append: callout_type | append: '">' %}
+        {% assign bq_to_replace = '<blockquote>' | append: preparts[1] %}
+        {% assign bq_replacement = bq_part | append: preparts[1] %}
+        {% assign replaced_content = replaced_content | replace_first: bq_to_replace, bq_replacement %}
+        {% assign replaced_content = replaced_content | remove: callout_syntax_plus %}
+        {% assign replaced_content = replaced_content | remove: callout_syntax_minus %}
+        {% assign replaced_content = replaced_content | remove: callout_syntax %}
+    {% endif %}
+{% endfor %}
+
+{% comment %}Initialize the output with the original content{% endcomment %}
+{% assign output = replaced_content %}
+
+{% comment %}Pattern to find the incorrect table that should be an image{% endcomment %}
+{% assign pattern = '<div class="table-wrapper"><table> <tbody> <tr> <td>![' %}
+
+{% comment %}Check if the pattern exists in the content{% endcomment %}
+{% if output contains pattern %}
+  {% assign parts = output | split: pattern %}
+  {% assign first = true %}
+
+  {% for part in parts %}
+    {% if first %}
+      {% assign output = part %}
+      {% assign first = false %}
+    {% else %}
+      {% assign image_parts = part | split: ']</td> <td>' %}
+      {% assign alt_text_and_width = image_parts[0] | split: '|' %}
+      {% assign alt_text = alt_text_and_width[0] %}
+      {% assign width = alt_text_and_width[1] %}
+      {% assign src_parts = image_parts[1] | split: '</td> </tr> </tbody> </table></div>' %}
+      {% assign src = src_parts[0] %}
+
+      {% comment %}Create the image tag{% endcomment %}
+      {% assign img_tag = '<p><img src="' | append: src | append: '" alt="' | append: alt_text | append: '" width="' | append: width | append: '"></p>' %}
+      {% assign output = output | append: img_tag %}
+
+      {% if src_parts.size > 1 %}
+        {% assign output = output | append: src_parts[1] %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{{ output | escape }}

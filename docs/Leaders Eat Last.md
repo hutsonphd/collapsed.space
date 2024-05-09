@@ -1,11 +1,33 @@
 ---
-title: Leaders Eat Last
-layout: default
+layout: obsidian
+share: "true"
 parent: Books
+id: https://www.goodreads.com/book/show/34879669
+fullTitle: Leaders Eat Last
+pages: undefined
+cover: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1400881733i/16144853.jpg
+datePublished: 2014-01-01
+title: Leaders Eat Last
+author:
+  - "[Simon Sinek](Simon%20Sinek.md)"
+avgRating: "4.08"
+tags:
+  - book
+relations:
+  - "[Leadership](Leadership.md)"
+  - "[Team Management](Team%20Management.md)"
+  - "[Organizational Behavior](Organizational%20Behavior.md)"
+  - "[Motivation and Reward Systems](Motivation%20and%20Reward%20Systems.md)"
+  - "[Trust Building](Trust%20Building.md)"
+  - "[Workplace Ethics](Workplace%20Ethics.md)"
+  - "[Emotional Intelligence](Emotional%20Intelligence.md)"
+  - "[Employee Wellbeing](Employee%20Wellbeing.md)"
+  - "[Effective Communication](Effective%20Communication.md)"
+  - "[Corporate Culture](Corporate%20Culture.md)"
 ---
-![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1400881733i/16144853.jpg)
+![cover](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1400881733i/16144853.jpg)
 
-{: .abstract}
+> [!abstract]-
 > The New York Times bestseller by the acclaimed, bestselling author of Start With Why and Together is Better . Now with an expanded chapter and appendix on leading millennials, based on Simon Sinek's viral video "The Millennial Question" (150+ million views). Imagine a world where almost everyone wakes up inspired to go to work, feels trusted and valued during the day, then returns home feeling fulfilled. This is not a crazy, idealized notion. Today, in many successful organizations, great leaders create environments in which people naturally work together to do remarkable things. In his work with organizations around the world, Simon Sinek noticed that some teams trust each other so deeply that they would literally put their lives on the line for each other. Other teams, no matter what incentives are offered, are doomed to infighting, fragmentation and failure. Why? The answer became clear during a conversation with a Marine Corps general. "Officers eat last" he said. Sinek watched as the most junior Marines ate first while the most senior Marines took their place at the back of the line. What's symbolic in the chow hall is deadly serious on the Great leaders sacrifice their own comfort--even their own survival--for the good of those in their care. Too many workplaces are driven by cynicism, paranoia, and self-interest. But the best ones foster trust and cooperation because their leaders build what Sinek calls a "Circle of Safety" that separates the security inside the team from the challenges outside. Sinek illustrates his ideas with fascinating true stories that range from the military to big business, from government to investment banking.
 
 # Takeaways

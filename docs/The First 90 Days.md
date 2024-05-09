@@ -1,11 +1,32 @@
 ---
-title: The First 90 Days
-layout: default
+layout: obsidian
+share: "true"
 parent: Books
+id: https://goodreads.com/book/show/15824358
+fullTitle: The First 90 Days Critical Success Strategies for New Leaders at All Levels
+pages: "304"
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354903827l/15824358.jpg
+datePublished: 2003-01-01
+title: The First 90 Days
+author: "[[Michael D. Watkins]]"
+avgRating: "3.85"
+tags:
+  - book
+relations:
+  - "[Leadership Transitions](Leadership%20Transitions.md)"
+  - "[Career Development](Career%20Development.md)"
+  - "[Strategic Planning](Strategic%20Planning.md)"
+  - "[Organizational Culture](Organizational%20Culture.md)"
+  - "[Stakeholder Management](Stakeholder%20Management.md)"
+  - "[Team Building](Team%20Building.md)"
+  - "[Work-Life Balance](Work-Life%20Balance.md)"
+  - "[Continuous Learning](Continuous%20Learning.md)"
+  - "[Change Management](Change%20Management.md)"
+  - "[Personal Growth](Personal%20Growth.md)"
 ---
-![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354903827l/15824358.jpg)
+![cover](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354903827l/15824358.jpg)
 
-{: .abstract}
+> [!abstract]-
 > Since its original release, _The First 90 Days_ has become the bestselling globally acknowledged bible of leadership and career transitions. In this updated and expanded 10th anniversary edition, internationally known leadership transition expert Michael D. Watkins gives you the keys to successfully negotiating your next move—whether you’re onboarding into a new company, being promoted internally, or embarking on an international assignment.  
 > 
 > In _The First 90 Days_, Watkins outlines proven strategies that will dramatically shorten the time it takes to reach what he calls the "breakeven point" when your organization needs _you_ as much as you need the job. This new edition includes a substantial new preface by the author on the new definition of a career as a series of transitions; and notes the growing need for effective and repeatable skills for moving through these changes. As well, updated statistics and new tools make this book more reader-friendly and useful than ever. 

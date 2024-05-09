@@ -1,11 +1,32 @@
 ---
-title: Scrum
-layout: default
+layout: obsidian
+share: "true"
 parent: Books
+id: https://www.goodreads.com/book/show/19288230
+fullTitle: Scrum The Art of Doing Twice the Work in Half the Time
+pages: "237"
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393221649l/19288230.jpg
+datePublished: 2014-01-01
+title: Scrum
+author: "[[Jeff Sutherland]]"
+avgRating: "4.13"
+tags:
+  - book
+relations:
+  - "[Scrum Methodology](Scrum%20Methodology.md)"
+  - "[Project Management](Project%20Management.md)"
+  - "[Team Dynamics](Team%20Dynamics.md)"
+  - "[Time Management](Time%20Management.md)"
+  - "[Productivity Enhancement](Productivity%20Enhancement.md)"
+  - "[Work Efficiency](Work%20Efficiency.md)"
+  - "[Business Strategy](Business%20Strategy.md)"
+  - "[Organizational Behavior](Organizational%20Behavior.md)"
+  - "[Leadership](Leadership.md)"
+  - "[Agile Development Practices](Agile%20Development%20Practices.md)"
 ---
-![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393221649l/19288230.jpg)
+![cover](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393221649l/19288230.jpg)
 
-{: .abstract}
+> [!abstract]-
 > In the future, historians may look back on human progress and draw a sharp line designating “before Scrum” and “after Scrum.” Scrum is that ground-breaking. It already drives most of the world’s top technology companies. And now it’s starting to spread to every domain where leaders wrestle with complex projects.  
 > 
 > If you’ve ever been startled by how fast the world is changing, Scrum is one of the reasons why. Productivity gains of as much as 1200% have been recorded, and there’s no more lucid – or compelling – explainer of Scrum and its bright promise than Jeff Sutherland, the man who put together the first Scrum team more than twenty years ago.  

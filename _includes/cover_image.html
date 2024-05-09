@@ -1,0 +1,16 @@
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const images = document.querySelectorAll('img');
+    images.forEach(img => {
+      const altText = img.alt;
+      // Check if the alt text is exactly 'cover'
+      if (altText.toLowerCase() === 'cover') {
+        img.style.width = "150px";  // Set width directly via the style property
+      }
+      // Continue with the previous functionality
+      const className = 'alt-' + altText.replace(/\s+/g, '-').toLowerCase();
+      img.classList.add(className);
+    });
+  });
+  </script>
+  

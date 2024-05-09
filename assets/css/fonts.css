@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'bearsans';
+    src: url('fonts/bearsansui-regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bearsans';
+    src: url('fonts/bearsansui-italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'bearsans';
+    src: url('fonts/bearsansui-medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bearsans';
+    src: url('fonts/bearsansui-mediumitalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'bearsans';
+    src: url('fonts/bearsansui-bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bearsans';
+    src: url('fonts/bearsansui-bolditalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+
+@font-face {
+    font-family: 'bearsansheadline';
+    src: url('fonts/bearsansuiheadline-bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bearsansheadline';
+    src: url('fonts/bearsansuiheadline-bolditalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'bearsansheadline';
+    src: url('fonts/bearsansuiheadline-medium.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bearsansheadline';
+    src: url('fonts/bearsansuiheadline-mediumitalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'roboto-mono';
+    src: url('fonts/Roboto-Mono-regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}

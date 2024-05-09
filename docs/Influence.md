@@ -1,11 +1,33 @@
 ---
-title: Influence
-layout: default
+layout: obsidian
+share: "true"
 parent: Books
+id: https://www.goodreads.com/book/show/28815
+fullTitle: Influence The Psychology of Persuasion
+pages: 320
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391026083l/28815.jpg
+datePublished: 1984-01-01
+title: Influence
+author:
+  - "[Robert B. Cialdini](Robert%20B.%20Cialdini.md)"
+avgRating: 4.21
+tags:
+  - book
+relations:
+  - "[Psychology of Persuasion](Psychology%20of%20Persuasion.md)"
+  - "[Influence and Behavior](Influence%20and%20Behavior.md)"
+  - "[Human Decision Making](Human%20Decision%20Making.md)"
+  - "[Reciprocity in Social Interactions](Reciprocity%20in%20Social%20Interactions.md)"
+  - "[Commitment and Consistency](Commitment%20and%20Consistency.md)"
+  - "[Social Proof Concept](Social%20Proof%20Concept.md)"
+  - "[Power of Liking](Power%20of%20Liking.md)"
+  - "[Authority Influence](Authority%20Influence.md)"
+  - "[Scarcity Principle](Scarcity%20Principle.md)"
+  - "[Behavioral Psychology](Behavioral%20Psychology.md)"
 ---
-![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391026083l/28815.jpg)
+![cover](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391026083l/28815.jpg)
 
-{: .abstract}
+> [!abstract]-
 > Influence, the classic book on persuasion, explains the psychology of why people say "yes"—and how to apply these understandings. Dr. Robert Cialdini is the seminal expert in the rapidly expanding field of influence and persuasion. His thirty-five years of rigorous, evidence-based research along with a three-year program of study on what moves people to change behavior has resulted in this highly acclaimed book.  
 > 
 > You'll learn the six universal principles, how to use them to become a skilled persuader—and how to defend yourself against them. Perfect for people in all walks of life, the principles of Influence will move you toward profound personal change and act as a driving force for your success.

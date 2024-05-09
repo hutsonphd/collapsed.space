@@ -1,11 +1,33 @@
 ---
-title: Fearless
-layout: default
+layout: obsidian
+share: "true"
 parent: Books
+id: https://www.goodreads.com/book/show/137937505
+fullTitle: Fearless How to Transform a Services Culture and Successfully Productize
+pages: 247
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682806032l/137937505._SY475_.jpg
+datePublished: ""
+title: Fearless
+author:
+  - "[Eisha Armstrong](Eisha%20Armstrong.md)"
+avgRating: 5
+tags:
+  - book
+relations:
+  - "[Business Transformation](Business%20Transformation.md)"
+  - "[Cultural Change](Cultural%20Change.md)"
+  - "[Productization Strategy](Productization%20Strategy.md)"
+  - "[Change Management](Change%20Management.md)"
+  - "[B2B Services](B2B%20Services.md)"
+  - "[Product-Friendly Culture](Product-Friendly%20Culture.md)"
+  - "[Organizational Structure](Organizational%20Structure.md)"
+  - "[Talent Management](Talent%20Management.md)"
+  - "[Performance Measures and Incentives](Performance%20Measures%20and%20Incentives.md)"
+  - "[Product Governance](Product%20Governance.md)"
 ---
-![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682806032l/137937505._SY475_.jpg)
+![cover](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682806032l/137937505._SY475_.jpg)
 
-{: .abstract}
+> [!abstract]-
 > Transforming a B2B services business model to a more scalable, profitable, productized company can have many points of failure - **but the biggest and most underserved is the cultural transformation required to support successful productization**. The encore book from Eisha Armstrong and her team at Vecteris, Fearless tackles this frequent point of failure and dives deep on the change management required to build a **Product-Friendly Culture**. 
 > 
 > Building on the insights presented in Productize, Fearless details how shifting a business model from services to products requires a profound, fearless cultural transformation; the book is uniquely focused on B2B services organizations and the complex challenges that come with productizing a culture that delivers highly customized services.  

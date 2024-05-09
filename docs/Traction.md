@@ -1,11 +1,33 @@
 ---
-title: Traction
-layout: default
+layout: obsidian
+share: "true"
 parent: Books
+id: https://www.goodreads.com/book/show/8549192
+fullTitle: Traction
+pages: 
+cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1278520106l/8549192.jpg
+datePublished: 2007-01-01
+title: Traction
+author:
+  - "[Gino Wickman](Gino%20Wickman.md)"
+avgRating: 4.07
+tags:
+  - book
+relations:
+  - "[Entrepreneurship](Entrepreneurship.md)"
+  - "[Business Strategy](Business%20Strategy.md)"
+  - "[Organizational Vision](Organizational%20Vision.md)"
+  - "[Leadership](Leadership.md)"
+  - "[Business Growth](Business%20Growth.md)"
+  - "[Team Building](Team%20Building.md)"
+  - "[Performance Metrics](Performance%20Metrics.md)"
+  - "[Business Processes](Business%20Processes.md)"
+  - "[Company Culture](Company%20Culture.md)"
+  - "[Core Values](Core%20Values.md)"
 ---
-![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1278520106l/8549192.jpg)
+![cover](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1278520106l/8549192.jpg)
 
-{: .abstract}
+> [!abstract]-
 > Don't let common problems run you and your business. Get a grip and gain control with the Entrepreneurial Operating System (EOS). Inside Traction, you’ll discover simple yet powerful ways to run your company with more focus, growth and enjoyment. Based on years of real-world implementation, the EOS is a practical method for achieving the business success you have always envisioned.
 
 # Takeaways
@@ -97,8 +119,7 @@ parent: Books
     3. You can only run your business on one operating system.
     4. You must be open-minded, growth-oriented, and vulnerable. [Ref](yomu://content/annotation/4CFCFDD7-7477-41FA-A951-B3D1E6EFDD2A)
 ## CHAPTER 3: The Vision Component: Do They See What You Are Saying?
-
-{: .important}
+> [!important] 
 > - clarify your company's vision and the steps required to make it a reality. 
 > - many entrepreneurs can see their vision clearly and wrongly assume that everyone in their organization sees it as well.
 
@@ -170,7 +191,7 @@ parent: Books
 
 **The Right People in the Right Seats:** the right people are those who share your company's core values and thrive in your organizational culture. They contribute to making the organization a better place to be.
 **Core Values + People Analyzer = Right People:** core values and the People Analyzer tool help identify the right people. This tool helps assess whether individuals within your organization align with the company's core values.
-**The Importance of the Right Seat:** the "right seat" is a state where every employee operates within their area of greatest skill and passion. It means their roles align with their [[Unique Ability]], leading to optimal performance.
+**The Importance of the Right Seat:** the "right seat" is a state where every employee operates within their area of greatest skill and passion. It means their roles align with their [Unique Ability](Unique%20Ability.md), leading to optimal performance.
 **Clear Job Expectations and Structural Issues:** unclear roles, responsibilities, and structural issues can hinder an organization's progress. While a vague structure might have worked initially, it can become a barrier to growth. Creating a structure based on personal preferences rather than the business's needs is a common mistake.
 **Types of People Issues:**
     1. Having the right person in the wrong seat.
@@ -205,8 +226,7 @@ parent: Books
 **Maintaining the Right Seat:**: warning against stretching an individual too thin, causing them to occupy two seats. Balancing work and maintaining the right seat is essential for overall productivity and success.
 **The Scalable Accountability Chart:**: recommends that an Accountability Chart should replace the traditional organizational chart, making it a scalable tool to illustrate the organizational structure.
 **Methodical Approach to Personnel Changes:** any personnel changes should follow a methodical approach and ensure that the leadership team is aligned.
-
-{: .important}
+> [!important]
 > Not everyone can keep up with organizational growth, and retaining people solely because you like them can be detrimental to the company and its employees.
 **Quick Check for Your Organization:**
 1. Is this the right structure to get us to the next level?
@@ -225,9 +245,9 @@ parent: Books
     3. third type of people issue, and that is wrong person, wrong seat. The solution is obvious: That person must go. [Ref](yomu://content/annotation/8F93B184-C2DF-40BA-BA10-BE5326C37EFA)
         - the problem is solved once you move this person. Unfortunately, sometimes there is no seat available. In this case, you have to make a very difficult choice. You have to make decisions for the greater good of the business, and you don’t have the luxury of keeping people around simply because you like them. If this is the case, you must let them go. Sugggested intervention for right person, wrong seat. [Ref](yomu://content/annotation/01F0CB3E-3A46-4FB5-97A3-49719E1CAF91)
 
-{: .important}
-> [[Good to Great]] Book recommendation [Ref](yomu://content/annotation/871F9558-D916-4268-A1B0-7D7B25D4AE98)
-> [[Unique Ability]] Book recommendation [Ref](yomu://content/annotation/CBDBCE53-3E4A-4B53-90E1-2F8EA622A8F1)
+> [!important] 
+> [Good to Great](Good%20to%20Great.md) Book recommendation [Ref](yomu://content/annotation/871F9558-D916-4268-A1B0-7D7B25D4AE98)
+> [Unique Ability](Unique%20Ability.md) Book recommendation [Ref](yomu://content/annotation/CBDBCE53-3E4A-4B53-90E1-2F8EA622A8F1)
 - [The People Analyzer](www.eosworldwide.com/people) is designed to clarify whether you have the right person in place or not. [Ref](yomu://content/annotation/B2D95FA3-E804-494E-8058-2AB7B86BF9D1)
 
 **Approach to Wrong Person / Wrong Seat**
@@ -382,7 +402,7 @@ parent: Books
 **The Quest for Accountability and Discipline:** creating accountability and discipline is often the greatest weakness in most organizations. He emphasizes that gaining traction means turning your vision into a reality.
 **The "Rocks" Concept:**
 - After your vision is clear, you'll set better priorities known as "Rocks." What you call these priorities doesn't matter, but they are often referred to as "Rocks."
-- [[Stephen Covey]]'s book "[[First Things First]]" to stress the importance of focusing on essential priorities for success. He also suggests that having fewer, critical priorities is more effective.
+- [Stephen Covey](Stephen%20Covey.md)'s book "[First Things First](First%20Things%20First.md)" to stress the importance of focusing on essential priorities for success. He also suggests that having fewer, critical priorities is more effective.
 **Establishing Your Rocks:**
 1. Review the Vision/Traction Organizer (V/TO) to ensure alignment among the leadership team.
 2. List everything that must be accomplished in the next 90 days.

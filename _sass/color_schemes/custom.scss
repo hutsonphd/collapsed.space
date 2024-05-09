@@ -1,14 +1,10 @@
 @import "./color_schemes/dark";
-// @import url('https://fonts.cdnfonts.com/css/avenir-lt-pro');
-// @import url("https://kit.fontawesome.com/e3aa188c6e.css");
-// @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/avenir-lt-pro');
+@import url("https://kit.fontawesome.com/e3aa188c6e.css");
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
-@import url('/assets/css/bearsansui.css');
-@import url('/assets/css/geologica.css');
-@import url('/assets/css/ubuntusans-mono.css');
-
-$body-font-family: 'bearsans', "Font Awesome 6 Pro", "Segoe UI Emoji" !important;
-$mono-font-family: 'Ubuntu San Mono' !important;
+$body-font-family: 'Avenir Next', 'Avenir LT Pro', "Font Awesome 6 Pro", "Segoe UI Emoji" !important;
+$mono-font-family: 'Source Code Pro' !important;
 $gray-1: #5C6370;
 $gray-2: #abb2bf;
 $red: #e06c75;
@@ -74,12 +70,39 @@ $table-background-color: $white !default;
 $search-result-preview-color: $grey-dk-300;
 
 blockquote.abstract::before, strong, h1, h2, h3, h4, h5 {
-    font-family: 'bearsans-headline', 'Font Awesome 6 Pro' !important;
+    // font-family: 'Avenir Nex 'Font Awesome 6 Pro' !important;
     font-weight: 700 !important;
 }
 
-html {
+html, body, .side-bar, .main, .search, .main-header, .search-input-wrap, .search-input, .search-results {
     background-color: rgb(30, 33, 34) !important;
+    font-weight: 500 !important;
+}
+
+.search-result-title, .search-result-preview, .search-result, .search-result-rel-url {
+    color: $grey-lt-000 !important;
+}
+
+.search-results-list-item:hover, .search-result:hover {
+    background-color: $grey-dk-100 !important;
+}
+
+.search-result-doc-title {
+    color: $blue;
+    font-weight: 700 !important;
+}
+
+.search-result-section {
+    color: $yellow;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.side-header:hover {
+    background-color: none !important;
+    background-image: none !important;
 }
 
 h1 {
@@ -118,10 +141,16 @@ h6 {
 .site-footer {
     display: none !important;
 }
+
 strong {
     color: $red;
 }
 
 code {
-    color: $aqua;
+    color: $yellow;
 }
+
+blockquote::before {
+    font-size: 1em !important;
+}
+

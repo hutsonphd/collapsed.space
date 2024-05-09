@@ -81,7 +81,7 @@ relations:
 	- Describes all costs incurred to operate a business model
 	- What are the most important costs inherent in our business model? Which **KR** are most expensive? Which **KA** are most expensive? Are you cost-drive or value-driven?
 	- Types of Costs: Fixed, Variable, Economics of Scale, Economics of Scope
-![Pasted image 20231028213911.png](../assets/images/Pasted%20image%2020231028213911.png)
+![Pasted image 20231028213911.png](/assets/images/Pasted%20image%2020231028213911.png)
 
 ## Patterns
 ### Unbundling Business Modules

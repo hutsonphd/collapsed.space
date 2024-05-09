@@ -35,6 +35,7 @@ relations:
 ## Canvas
 - A **business model** describes the rationale of how an organizations creates, delivers, and captures value
 ![Pasted image 20231028213530.png](../assets/images/Pasted%20image%2020231028213530.png)
+
 ### Key elements
 - **Customer segment**: An organization serves one or several customer segments
 	- **CS** defines that different groups of people or organizations an enterprise aims to reach.

@@ -87,15 +87,18 @@ relations:
 ### Unbundling Business Modules
 - Unbundling the corporation derives from the concept of three types of businesses: customer relationship business, product innovation businesses, and infrastructure businesses
 - Ideally, the types of businesses are unbundled into separate entities and do not co-exist in a single corporation
+
 ### The Long Tail
 - Selling many niche items where a small number of bestsellers account for most revenues
 - Low inventory costs and strong platforms to make niche content readily available to interested buyers.
 - Examples are selling books and Legos
+
 ### Multi-sided Platforms
 - Brings together 2+ distinct and interdependent groups of customers
 - Value is derived from one group _only if_ the groups are present thereby facilitating interactions between different groups
 - Grows in value to the extent that more users are attracted to the platform (aka network effect)
 - Examples include Game consoles, App store, Social Media
+
 ### Free as a Business Model
 - At one substantial **CS** is able to _continuously benefit_ from a free of charge offer.
 - Non-paying customers are financed by another part of the business model or by another **CS**.

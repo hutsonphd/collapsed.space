@@ -9,16 +9,16 @@ favicon_ico: "/assets/svg/collapsed-space.svg"
 
 callouts:
   abstract:
-    title: "   Abstract"
+    title: " Abstract"
     color: blue
   important:
-    title: "  Important"
+    title: " Important"
     color: red
   insight:
-    title: "  Insight"
+    title: " Insight"
     color: yellow
   critical:
-    title: "  Critical"
+    title: " Critical"
     color: red
   question:
     title: " Question"
@@ -26,6 +26,7 @@ callouts:
   notable:
     title: " Notable"
     color: yellow
+    
 search_enabled: true
 heading_anchors: true
 nav_enabled: true

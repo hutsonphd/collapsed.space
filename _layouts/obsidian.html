@@ -1,25 +1,29 @@
 ---
 layout: default
 ---
-{% assign replaced_content = content %}
-{% assign content_array = replaced_content | split: '[!' %}
+{% assign lines = content | split: '</blockquote>' %}
+{% assign output = '' %}
 
-{% for item in content_array %}
-	{% if forloop.index > 1 %}
-		{% assign postparts = item | split: ']' %}
-		{% assign callout_type = postparts[0] %}
-		{% assign callout_syntax = '[!' | append: postparts[0] | append: ']' %}
-		{% assign callout_syntax_plus = callout_syntax | append: '+' %}
-		{% assign callout_syntax_minus = callout_syntax | append: '-' %}
-		{% assign preparts = item | split: '<blockquote>' %}
-		{% assign bq_part = '<blockquote' | append: ' class="' | append: callout_type | append: '">' %}
-		{% assign bq_to_replace = '<blockquote>' | append: preparts[1] %}
-		{% assign bq_replacement = bq_part | append: preparts[1] %}
-		{% assign replaced_content = replaced_content | replace: bq_to_replace, bq_replacement  %}
-		{% assign replaced_content = replaced_content | remove: callout_syntax_plus  %}
-		{% assign replaced_content = replaced_content | remove: callout_syntax_minus  %}
-		{% assign replaced_content = replaced_content | remove: callout_syntax  %}
-	{% endif %}
+{% for block in lines %}
+  {% if block contains '[!' %}
+    {% assign parts = block | split: '<blockquote>' %}
+    {% assign pre_blockquote = parts[0] %}
+    {% assign blockquote_content = parts[1] %}
+    {% assign callout_parts = blockquote_content | split: ']' %}
+    {% assign callout_info = callout_parts[0] | split: '[!' %}
+    {% assign callout_type = callout_info[1] %}
+    {% assign content_after_callout = callout_parts[1] | remove_first: '-' %}
+
+    {% assign new_blockquote = '<blockquote class="' | append: callout_type | append: '">' %}
+    {% assign new_blockquote = new_blockquote | append: content_after_callout %}
+    {% assign new_blockquote = new_blockquote | append: '</blockquote>' %}
+
+    {% assign modified_block = pre_blockquote | append: new_blockquote %}
+    {% assign output = output | append: modified_block %}
+  {% else %}
+    {% assign block = block | append: '</blockquote>' %}
+    {% assign output = output | append: block %}
+  {% endif %}
 {% endfor %}
 
-{{ replaced_content }}
+{{ output }}

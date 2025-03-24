@@ -2,6 +2,7 @@
 layout: obsidian
 share: "true"
 parent: Interests
+title: Retrieval Augmented Generation
 ---
 
 ## System Prompts

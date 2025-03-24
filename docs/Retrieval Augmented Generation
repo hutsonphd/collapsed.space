@@ -1,3 +1,9 @@
+---
+layout: obsidian
+share: "true"
+parent: Interests
+---
+
 ## System Prompts
 
 System prompts are a core component that shapes AI model behavior by providing precise control over how AI models process and respond to user inputs. They can be configured at three different levels: for the current chat (which overrides all others), for a specific user, or for a specific AI model. 

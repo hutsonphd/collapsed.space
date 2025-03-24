@@ -34,17 +34,20 @@ The context window is the memory space where the language model processes inform
 Let's say you create the following system prompts:
 
 **Model-level system prompt** :
-```
+
+```text
 You are a helpful assistant specializing in technical documentation. Always format code examples with proper syntax highlighting and explain complex concepts with analogies.
 ```
 
 **User-level system prompt** :
-```
+
+```text
 When responding to this user, prioritize brevity and focus on practical examples. Use American English spelling.
 ```
 
 **Chat-level system prompt** :
-```
+
+```text
 For this conversation, act as a Python expert focusing on FastAPI development. Provide inline comments for all code examples.
 ```
 
@@ -76,7 +79,8 @@ The prompt template mechanism combines different elements before sending them to
 Let's look at how a RAG template might be structured and applied:
 
 **Custom RAG Template**:
-```
+
+```text
 I'll provide you with some relevant information to help answer the user's question.
 
 CONTEXT:
@@ -93,7 +97,8 @@ When a user asks "How do I implement authentication in FastAPI?" while referenci
 1. **Knowledge Retrieval**: The system searches the referenced document for information about FastAPI authentication.
 
 2. **Template Population**:
-```
+
+```text
 I'll provide you with some relevant information to help answer the user's question.
 
 CONTEXT:
@@ -111,7 +116,8 @@ Only use information from the CONTEXT. If the CONTEXT doesn't contain enough inf
 ```
 
 3. **System Prompt Integration**: Finally, the chat-level system prompt is added at the beginning:
-```
+
+```text
 For this conversation, act as a Python expert focusing on FastAPI development. Provide inline comments for all code examples.
 
 I'll provide you with some relevant information to help answer the user's question.

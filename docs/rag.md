@@ -268,7 +268,7 @@ The vector database is the technical backbone of any RAG system, storing and ind
 
 ### Embedding Model Selection
 
-Selecting the appropriate embedding model is crucial for RAG performance. The MTEB Leaderboard on Hugging Face is a good starting point, particularly focusing on the Retrieval Average column which represents NDCG@10 scores across datasets. 
+Selecting the appropriate embedding model is foundational for RAG performance. The MTEB Leaderboard on Hugging Face is a good starting point, particularly focusing on the Retrieval Average column which represents NDCG@10 scores across datasets. 
 
 When selecting an embedding model, consider vector dimension, average retrieval performance, and model size. Although embedding APIs provide ease of use, they involve trade-offs such as potential scaling limitations.
 
@@ -490,7 +490,7 @@ def process_query(user_query, chat_history=None, user_context=None):
 
 ### RAG Template Construction
 
-The RAG template is crucial for structuring how retrieved information is presented to the LLM:
+The RAG template is important for structuring how retrieved information is presented to the LLM:
 
 ```python
 def create_rag_template(retrieved_chunks, query, template_type="standard"):

@@ -250,38 +250,40 @@ Implementing Model Context Protocol for local models with sensitive data require
 2. **Role-Based Access Control with Least Privilege**
    - **Example:** Create granular RBAC profiles for different user types (administrators, analysts, auditors) with permissions strictly limited to job functions.
    - **Best Practice:** Implement dynamic access controls that adjust permissions based on context (time of day, location, device posture).
-   ```yaml
-   # Example RBAC configuration for MCP server
-   authorization:
-     default: deny
-     roles:
-       - name: mcp-admin
-         resources: ["configuration", "users", "connections"]
-         verbs: ["get", "list", "create", "update", "delete"]
-       - name: mcp-auditor
-         resources: ["logs", "metrics", "connections"]
-         verbs: ["get", "list"]
-       - name: mcp-user
-         resources: ["connections"]
-         verbs: ["get", "list", "create"]
-   ```
+
+```yaml
+# Example RBAC configuration for MCP server
+authorization:
+    default: deny
+    roles:
+    - name: mcp-admin
+        resources: ["configuration", "users", "connections"]
+        verbs: ["get", "list", "create", "update", "delete"]
+    - name: mcp-auditor
+        resources: ["logs", "metrics", "connections"]
+        verbs: ["get", "list"]
+    - name: mcp-user
+        resources: ["connections"]
+        verbs: ["get", "list", "create"]
+```
 
 3. **Mutual TLS (mTLS) Between All Components**
    - **Example:** Configure mutual TLS between all MCP components with certificate rotation every 30 days and certificate-based workload identity.
    - **Best Practice:** Use a dedicated PKI infrastructure with hardware security modules (HSMs) for key protection.
-   ```yaml
-   # Example mTLS configuration
-   security:
-     mtls:
-       enabled: true
-       cert_rotation_days: 30
-       min_tls_version: "TLS1.3"
-       cipher_suites:
-         - TLS_AES_256_GCM_SHA384
-         - TLS_CHACHA20_POLY1305_SHA256
-       verify_client: true
-       ca_cert: "/path/to/ca.crt"
-   ```
+
+```yaml
+# Example mTLS configuration
+security:
+    mtls:
+    enabled: true
+    cert_rotation_days: 30
+    min_tls_version: "TLS1.3"
+    cipher_suites:
+        - TLS_AES_256_GCM_SHA384
+        - TLS_CHACHA20_POLY1305_SHA256
+    verify_client: true
+    ca_cert: "/path/to/ca.crt"
+```
 
 ### 2. Data Privacy
 
@@ -290,54 +292,57 @@ Implementing Model Context Protocol for local models with sensitive data require
 1. **Data Classification and Handling**
    - **Example:** Implement automatic data classification that tags data as public, internal, confidential, or restricted, with corresponding protection mechanisms.
    - **Best Practice:** Use content-based classification that analyzes data patterns to identify sensitive information (like PII, PHI) automatically.
-   ```yaml
-   # Example data classification configuration
-   data_classification:
-     enabled: true
-     scan_schedule: "0 */4 * * *"  # Every 4 hours
-     patterns:
-       - name: "PII"
-         regex: "[0-9]{3}-[0-9]{2}-[0-9]{4}"  # SSN pattern
-         classification: "restricted"
-       - name: "Credit Card"
-         regex: "[0-9]{13,16}"
-         classification: "restricted"
-     actions:
-       restricted:
-         - encrypt
-         - log_access
-         - require_approval
-   ```
+
+```yaml
+# Example data classification configuration
+data_classification:
+    enabled: true
+    scan_schedule: "0 */4 * * *"  # Every 4 hours
+    patterns:
+    - name: "PII"
+        regex: "[0-9]{3}-[0-9]{2}-[0-9]{4}"  # SSN pattern
+        classification: "restricted"
+    - name: "Credit Card"
+        regex: "[0-9]{13,16}"
+        classification: "restricted"
+    actions:
+    restricted:
+        - encrypt
+        - log_access
+        - require_approval
+```
 
 2. **End-to-End Encryption for Sensitive Data**
    - **Example:** Implement envelope encryption for all data with regularly rotated keys stored in a hardware security module (HSM).
    - **Best Practice:** Use AES-256-GCM for data encryption with key rotation every 90 days, with keys protected by an HSM.
-   ```yaml
-   # Example encryption configuration
-   encryption:
-     algorithm: "AES-256-GCM"
-     key_rotation_days: 90
-     hsm:
-       enabled: true
-       provider: "aws"  # or "azure", "gcp", "on-prem"
-       key_id: "arn:aws:kms:us-west-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab"
-   ```
+
+```yaml
+# Example encryption configuration
+encryption:
+    algorithm: "AES-256-GCM"
+    key_rotation_days: 90
+    hsm:
+    enabled: true
+    provider: "aws"  # or "azure", "gcp", "on-prem"
+    key_id: "arn:aws:kms:us-west-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab"
+```
 
 3. **Data Minimization and Tokenization**
    - **Example:** Replace sensitive data with tokens in all non-production environments and implement field-level masking for production queries.
    - **Best Practice:** Use format-preserving tokenization that maintains the data format but replaces sensitive values with non-sensitive equivalents.
-   ```yaml
-   # Example tokenization configuration
-   tokenization:
-     enabled: true
-     preserve_format: true
-     fields:
-       - name: "social_security_number"
-         pattern: "XXX-XX-XXXX"
-       - name: "credit_card_number"
-         pattern: "XXXX-XXXX-XXXX-XXXX"
-         expose_last: 4
-   ```
+
+```yaml
+# Example tokenization configuration
+tokenization:
+    enabled: true
+    preserve_format: true
+    fields:
+    - name: "social_security_number"
+        pattern: "XXX-XX-XXXX"
+    - name: "credit_card_number"
+        pattern: "XXXX-XXXX-XXXX-XXXX"
+        expose_last: 4
+```
 
 ### 3. Containerization Security
 
@@ -346,51 +351,54 @@ Implementing Model Context Protocol for local models with sensitive data require
 1. **Hardened Container Images**
    - **Example:** Build minimal containers using distroless or Alpine-based images, removing all unnecessary tools and libraries.
    - **Best Practice:** Implement mandatory vulnerability scanning with remediation SLAs based on severity (Critical: 24 hours, High: 7 days).
-   ```dockerfile
-   # Example Dockerfile with security hardening
-   FROM alpine:3.15 AS builder
-   # Build stages and dependencies here
 
-   FROM scratch
-   COPY --from=builder /app/binary /app/binary
-   USER 10001
-   WORKDIR /app
-   ENTRYPOINT ["/app/binary"]
-   ```
+```dockerfile
+# Example Dockerfile with security hardening
+FROM alpine:3.15 AS builder
+# Build stages and dependencies here
+
+FROM scratch
+COPY --from=builder /app/binary /app/binary
+USER 10001
+WORKDIR /app
+ENTRYPOINT ["/app/binary"]
+```
 
 2. **Runtime Protection with Enhanced Isolation**
    - **Example:** Implement pod security policies that enforce non-root execution, read-only file systems, and drop all capabilities except those specifically required.
    - **Best Practice:** Use gVisor or similar container runtime sandbox technologies to provide additional isolation between containers.
-   ```yaml
-   # Example Kubernetes pod security context
-   securityContext:
-     runAsNonRoot: true
-     runAsUser: 10001
-     readOnlyRootFilesystem: true
-     allowPrivilegeEscalation: false
-     capabilities:
-       drop: ["ALL"]
-       add: ["NET_BIND_SERVICE"]
-   ```
+
+```yaml
+# Example Kubernetes pod security context
+securityContext:
+    runAsNonRoot: true
+    runAsUser: 10001
+    readOnlyRootFilesystem: true
+    allowPrivilegeEscalation: false
+    capabilities:
+    drop: ["ALL"]
+    add: ["NET_BIND_SERVICE"]
+```
 
 3. **Continuous Compliance Monitoring**
    - **Example:** Implement automated security scanning that validates container configurations against CIS benchmarks and NIST 800-171 controls.
    - **Best Practice:** Deploy continuous monitoring that automatically remediates or quarantines non-compliant resources.
-   ```yaml
-   # Example compliance monitoring configuration
-   compliance:
-     frameworks:
-       - name: "CMMC_2_0_LEVEL_2"
-         enabled: true
-       - name: "SOC2_TYPE_II"
-         enabled: true
-       - name: "NIST_800_171"
-         enabled: true
-     scanning:
-       schedule: "0 */6 * * *"  # Every 6 hours
-       automatic_remediation: true
-       failure_policy: "quarantine"
-   ```
+
+```yaml
+# Example compliance monitoring configuration
+compliance:
+    frameworks:
+    - name: "CMMC_2_0_LEVEL_2"
+        enabled: true
+    - name: "SOC2_TYPE_II"
+        enabled: true
+    - name: "NIST_800_171"
+        enabled: true
+    scanning:
+    schedule: "0 */6 * * *"  # Every 6 hours
+    automatic_remediation: true
+    failure_policy: "quarantine"
+```
 
 ### 4. Audit and Monitoring
 
@@ -399,65 +407,68 @@ Implementing Model Context Protocol for local models with sensitive data require
 1. **Immutable Audit Logging**
    - **Example:** Implement append-only logs stored in a tamper-proof system with cryptographic verification of log integrity.
    - **Best Practice:** Use a dedicated WORM (Write Once Read Many) storage solution with cryptographic signatures for each log entry.
-   ```yaml
-   # Example audit logging configuration
-   audit:
-     enabled: true
-     storage:
-       type: "worm"
-       retention_days: 365
-     events:
-       - category: "authentication"
-         level: "info"
-       - category: "authorization"
-         level: "info"
-       - category: "data_access"
-         level: "info"
-     tamper_proof:
-       enabled: true
-       signing_key: "/path/to/signing_key.pem"
-   ```
+
+```yaml
+# Example audit logging configuration
+audit:
+    enabled: true
+    storage:
+    type: "worm"
+    retention_days: 365
+    events:
+    - category: "authentication"
+        level: "info"
+    - category: "authorization"
+        level: "info"
+    - category: "data_access"
+        level: "info"
+    tamper_proof:
+    enabled: true
+    signing_key: "/path/to/signing_key.pem"
+```
 
 2. **Real-Time Threat Detection**
    - **Example:** Deploy anomaly detection that identifies unusual access patterns or data transfer volumes and alerts security teams in real-time.
    - **Best Practice:** Implement behavioral analytics that establish baselines for normal user and system behavior and detect deviations.
-   ```yaml
-   # Example threat detection configuration
-   threat_detection:
-     enabled: true
-     baseline_learning_days: 30
-     alerting:
-       channels:
-         - type: "email"
-           recipients: ["security@example.com"]
-         - type: "webhook"
-           url: "https://security.example.com/alerts"
-       thresholds:
-         high: 0
-         medium: 1
-         low: 24  # hours before alert
-   ```
+
+```yaml
+# Example threat detection configuration
+threat_detection:
+    enabled: true
+    baseline_learning_days: 30
+    alerting:
+    channels:
+        - type: "email"
+        recipients: ["security@example.com"]
+        - type: "webhook"
+        url: "https://security.example.com/alerts"
+    thresholds:
+        high: 0
+        medium: 1
+        low: 24  # hours before alert
+```
 
 3. **Comprehensive Monitoring for Compliance**
    - **Example:** Implement a monitoring system that correlates events across all MCP components to provide a unified view of system security.
    - **Best Practice:** Deploy a SIEM (Security Information and Event Management) system that ingests logs from all components and provides compliance-specific dashboards and reports.
-   ```yaml
-   # Example monitoring configuration
-   monitoring:
-     metrics:
-       enabled: true
-       retention_days: 90
-     dashboards:
-       - name: "CMMC_Compliance"
-         refresh_interval: "5m"
-       - name: "SOC2_Controls"
-         refresh_interval: "5m"
-     alerts:
-       - name: "Failed_Authentication"
-         query: 'count(authentication_failure) > 5'
-         interval: "5m"
-         severity: "high"
-   ```
+
+```yaml
+# Example monitoring configuration
+monitoring:
+    metrics:
+    enabled: true
+    retention_days: 90
+    dashboards:
+    - name: "CMMC_Compliance"
+        refresh_interval: "5m"
+    - name: "SOC2_Controls"
+        refresh_interval: "5m"
+    alerts:
+    - name: "Failed_Authentication"
+        query: 'count(authentication_failure) > 5'
+        interval: "5m"
+        severity: "high"
+```
 
 ### 5. Network Segmentation and Zero Trust
 
@@ -466,70 +477,73 @@ Implementing Model Context Protocol for local models with sensitive data require
 1. **Micro-Segmentation with Zero Trust**
    - **Example:** Implement network policies that default to deny all traffic between services unless explicitly allowed, with segmentation based on workload identity rather than network location.
    - **Best Practice:** Use identity-based micro-segmentation that authenticates and authorizes every connection attempt regardless of source or destination.
-   ```yaml
-   # Example network policy
-   apiVersion: networking.k8s.io/v1
-   kind: NetworkPolicy
-   metadata:
-     name: default-deny-all
-   spec:
-     podSelector: {}
-     policyTypes:
-     - Ingress
-     - Egress
-   ---
-   apiVersion: networking.k8s.io/v1
-   kind: NetworkPolicy
-   metadata:
-     name: allow-specific-communication
-   spec:
-     podSelector:
-       matchLabels:
-         app: frontend
-     ingress:
-     - from:
-       - podSelector:
-           matchLabels:
-             app: api-gateway
-     egress:
-     - to:
-       - podSelector:
-           matchLabels:
-             app: backend-service
-   ```
+
+```yaml
+# Example network policy
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+    name: default-deny-all
+spec:
+    podSelector: {}
+    policyTypes:
+    - Ingress
+    - Egress
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+    name: allow-specific-communication
+spec:
+    podSelector:
+    matchLabels:
+        app: frontend
+    ingress:
+    - from:
+    - podSelector:
+        matchLabels:
+            app: api-gateway
+    egress:
+    - to:
+    - podSelector:
+        matchLabels:
+            app: backend-service
+```
 
 2. **Encrypted Data in Transit**
    - **Example:** Enforce TLS 1.3 for all communications with strong cipher suites and certificate-based authentication.
    - **Best Practice:** Implement a service mesh like Istio to provide transparent mutual TLS for all service-to-service communication.
-   ```yaml
-   # Example service mesh mTLS configuration
-   apiVersion: security.istio.io/v1beta1
-   kind: PeerAuthentication
-   metadata:
-     name: default
-     namespace: istio-system
-   spec:
-     mtls:
-       mode: STRICT
-   ```
+
+```yaml
+# Example service mesh mTLS configuration
+apiVersion: security.istio.io/v1beta1
+kind: PeerAuthentication
+metadata:
+    name: default
+    namespace: istio-system
+spec:
+    mtls:
+    mode: STRICT
+```
 
 3. **Network Traffic Monitoring and Analysis**
    - **Example:** Deploy a network monitoring solution that captures and analyzes all traffic between MCP components for security anomalies.
    - **Best Practice:** Implement deep packet inspection for unencrypted traffic and metadata analysis for encrypted traffic to detect potential threats.
-   ```yaml
-   # Example network monitoring configuration
-   network_monitoring:
-     enabled: true
-     packet_capture:
-       enabled: true
-       retention_days: 30
-     flow_logs:
-       enabled: true
-       retention_days: 90
-     anomaly_detection:
-       enabled: true
-       baseline_learning_days: 30
-   ```
+
+```yaml
+# Example network monitoring configuration
+network_monitoring:
+    enabled: true
+    packet_capture:
+    enabled: true
+    retention_days: 30
+    flow_logs:
+    enabled: true
+    retention_days: 90
+    anomaly_detection:
+    enabled: true
+    baseline_learning_days: 30
+```
 
 ### 6. Continuous Security Validation
 
@@ -538,56 +552,59 @@ Implementing Model Context Protocol for local models with sensitive data require
 1. **Automated Security Testing**
    - **Example:** Implement scheduled penetration testing and vulnerability scanning that simulates attacker behavior.
    - **Best Practice:** Combine automated scanning with periodic manual penetration testing by certified security professionals.
-   ```yaml
-   # Example security testing configuration
-   security_testing:
-     vulnerability_scanning:
-       schedule: "0 0 * * 0"  # Weekly on Sunday
-       scan_types:
-         - network
-         - container
-         - code
-     penetration_testing:
-       schedule: "0 0 1 */3 *"  # Every 3 months
-       notification:
-         - security@example.com
-         - compliance@example.com
-   ```
+
+```yaml
+# Example security testing configuration
+security_testing:
+    vulnerability_scanning:
+    schedule: "0 0 * * 0"  # Weekly on Sunday
+    scan_types:
+        - network
+        - container
+        - code
+    penetration_testing:
+    schedule: "0 0 1 */3 *"  # Every 3 months
+    notification:
+        - security@example.com
+        - compliance@example.com
+```
 
 2. **Compliance Validation Automation**
    - **Example:** Deploy automated tools that continuously validate system configurations against CMMC and SOC2 requirements.
    - **Best Practice:** Integrate compliance testing into CI/CD pipelines to prevent deployment of non-compliant configurations.
-   ```yaml
-   # Example CI/CD compliance check
-   compliance_check:
-     enabled: true
-     frameworks:
-       - cmmc_2_level_2
-       - soc2_type_2
-     fail_on_violation: true
-     report_path: "./compliance-reports/"
-   ```
+
+```yaml
+# Example CI/CD compliance check
+compliance_check:
+    enabled: true
+    frameworks:
+    - cmmc_2_level_2
+    - soc2_type_2
+    fail_on_violation: true
+    report_path: "./compliance-reports/"
+```
 
 3. **Incident Response Automation**
    - **Example:** Implement automated incident response that can isolate affected components and initiate remediation workflows.
    - **Best Practice:** Develop and regularly test playbooks for common security incidents with both automated and manual response components.
-   ```yaml
-   # Example incident response configuration
-   incident_response:
-     automatic_containment: true
-     playbooks:
-       - name: "credential_compromise"
-         actions:
-           - revoke_sessions
-           - reset_credentials
-           - notify_security_team
-       - name: "data_exfiltration"
-         actions:
-           - block_ip
-           - isolate_container
-           - snapshot_evidence
-           - notify_security_team
-   ```
+
+```yaml
+# Example incident response configuration
+incident_response:
+    automatic_containment: true
+    playbooks:
+    - name: "credential_compromise"
+        actions:
+        - revoke_sessions
+        - reset_credentials
+        - notify_security_team
+    - name: "data_exfiltration"
+        actions:
+        - block_ip
+        - isolate_container
+        - snapshot_evidence
+        - notify_security_team
+```
 
 ### Implementation Best Practices for Compliance
 
@@ -626,6 +643,7 @@ Neo4j is a powerful graph database that can be seamlessly integrated with MCP to
    - These servers expose graph database operations through the standardized MCP protocol.
 
 **Configuration Example:**
+
 ```yaml
 services:
   neo4j:
@@ -672,6 +690,7 @@ PostgreSQL integration with MCP provides AI systems with access to structured re
    - Implement natural language to SQL translation for more intuitive interactions.
 
 **Configuration Example:**
+
 ```yaml
 services:
   postgres:
@@ -711,6 +730,7 @@ HuggingFace is a hub for machine learning models, datasets, and spaces that can 
    - This enables AI models to interact with HuggingFace's models, datasets, spaces, papers, and collections.
 
 **Configuration Example:**
+
 ```yaml
 services:
   huggingface-mcp-server:
@@ -741,6 +761,7 @@ Next.js provides an excellent framework for building MCP Host interfaces that ca
    - Implement authentication and access control at this layer.
 
 **Example Integration Architecture:**
+
 ```yaml
 services:
   nextjs-app:
@@ -775,6 +796,7 @@ The Atlassian suite of tools can be integrated with MCP to provide AI systems wi
    - Configure authentication using API tokens or personal access tokens.
 
 **Configuration Example:**
+
 ```yaml
 services:
   atlassian-mcp-server:
@@ -808,6 +830,7 @@ Cloud storage platforms can be integrated with MCP to provide AI systems with ac
    - Configure authentication using Microsoft Graph API.
 
 **Configuration Example (Google Drive):**
+
 ```yaml
 services:
   gdrive-mcp-server:

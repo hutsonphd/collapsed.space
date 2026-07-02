@@ -1,0 +1,65 @@
+site_name: Collapsed Space
+site_url: https://collapsed.space
+
+theme:
+  name: material
+  logo: assets/svg/collapsed-space-full.svg
+  favicon: assets/svg/collapsed-space.svg
+  font: false
+  palette:
+    scheme: slate
+  features:
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Books:
+      - books/index.md
+      - books/business-model-generation.md
+      - books/escape-velocity.md
+      - books/factfulness.md
+      - books/fearless.md
+      - books/influence.md
+      - books/leaders-eat-last.md
+      - books/scrum.md
+      - books/shape-up.md
+      - books/storytelling-with-data.md
+      - books/the-dichotomy-of-leadership.md
+      - books/the-first-90-days.md
+      - books/the-psychology-of-money.md
+      - books/traction.md
+      - books/zero-to-one.md
+  - Interests:
+      - interests/index.md
+      - interests/mcp.md
+      - interests/rag.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - callouts:
+      aliases: false
+
+hooks:
+  - hooks/legacy_redirects.py
+
+extra_css:
+  - assets/css/bearsansui.css
+  - assets/css/geologica.css
+  - assets/css/ubuntusans-mono.css
+  - assets/css/extra.css
+
+extra:
+  generator: false

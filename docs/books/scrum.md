@@ -8,7 +8,7 @@ pages: "237"
 cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393221649l/19288230.jpg
 datePublished: 2014-01-01
 title: Scrum
-author: "[[Jeff Sutherland]]"
+author: "Jeff Sutherland"
 avgRating: "4.13"
 tags:
   - book

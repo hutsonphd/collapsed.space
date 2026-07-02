@@ -8,7 +8,7 @@ pages: "252"
 cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581527774l/41881472._SY475_.jpg
 datePublished: 2020-01-01
 title: The Psychology of Money
-author: "[[Morgan Housel]]"
+author: "Morgan Housel"
 avgRating: "4.34"
 tags:
   - book

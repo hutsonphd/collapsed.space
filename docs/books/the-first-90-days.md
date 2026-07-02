@@ -8,7 +8,7 @@ pages: "304"
 cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354903827l/15824358.jpg
 datePublished: 2003-01-01
 title: The First 90 Days
-author: "[[Michael D. Watkins]]"
+author: "Michael D. Watkins"
 avgRating: "3.85"
 tags:
   - book

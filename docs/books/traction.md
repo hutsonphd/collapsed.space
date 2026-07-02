@@ -191,7 +191,7 @@ relations:
 
 **The Right People in the Right Seats:** the right people are those who share your company's core values and thrive in your organizational culture. They contribute to making the organization a better place to be.
 **Core Values + People Analyzer = Right People:** core values and the People Analyzer tool help identify the right people. This tool helps assess whether individuals within your organization align with the company's core values.
-**The Importance of the Right Seat:** the "right seat" is a state where every employee operates within their area of greatest skill and passion. It means their roles align with their [Unique Ability](Unique%20Ability.md), leading to optimal performance.
+**The Importance of the Right Seat:** the "right seat" is a state where every employee operates within their area of greatest skill and passion. It means their roles align with their Unique Ability, leading to optimal performance.
 **Clear Job Expectations and Structural Issues:** unclear roles, responsibilities, and structural issues can hinder an organization's progress. While a vague structure might have worked initially, it can become a barrier to growth. Creating a structure based on personal preferences rather than the business's needs is a common mistake.
 **Types of People Issues:**
     1. Having the right person in the wrong seat.
@@ -246,9 +246,9 @@ relations:
         - the problem is solved once you move this person. Unfortunately, sometimes there is no seat available. In this case, you have to make a very difficult choice. You have to make decisions for the greater good of the business, and you don’t have the luxury of keeping people around simply because you like them. If this is the case, you must let them go. Sugggested intervention for right person, wrong seat. [Ref](yomu://content/annotation/01F0CB3E-3A46-4FB5-97A3-49719E1CAF91)
 
 > [!important] 
-> [Good to Great](Good%20to%20Great.md) Book recommendation [Ref](yomu://content/annotation/871F9558-D916-4268-A1B0-7D7B25D4AE98)
-> [Unique Ability](Unique%20Ability.md) Book recommendation [Ref](yomu://content/annotation/CBDBCE53-3E4A-4B53-90E1-2F8EA622A8F1)
-- [The People Analyzer](www.eosworldwide.com/people) is designed to clarify whether you have the right person in place or not. [Ref](yomu://content/annotation/B2D95FA3-E804-494E-8058-2AB7B86BF9D1)
+> Good to Great Book recommendation [Ref](yomu://content/annotation/871F9558-D916-4268-A1B0-7D7B25D4AE98)
+> Unique Ability Book recommendation [Ref](yomu://content/annotation/CBDBCE53-3E4A-4B53-90E1-2F8EA622A8F1)
+- [The People Analyzer](https://www.eosworldwide.com/people) is designed to clarify whether you have the right person in place or not. [Ref](yomu://content/annotation/B2D95FA3-E804-494E-8058-2AB7B86BF9D1)
 
 **Approach to Wrong Person / Wrong Seat**
 - Strike One: Discuss the issues and your expectations with the person, and give him or her 30 days to correct the problem. [Ref](yomu://content/annotation/C8C2810B-D4DF-433E-A313-4C3A7175F880)
@@ -402,7 +402,7 @@ relations:
 **The Quest for Accountability and Discipline:** creating accountability and discipline is often the greatest weakness in most organizations. He emphasizes that gaining traction means turning your vision into a reality.
 **The "Rocks" Concept:**
 - After your vision is clear, you'll set better priorities known as "Rocks." What you call these priorities doesn't matter, but they are often referred to as "Rocks."
-- [Stephen Covey](Stephen%20Covey.md)'s book "[First Things First](First%20Things%20First.md)" to stress the importance of focusing on essential priorities for success. He also suggests that having fewer, critical priorities is more effective.
+- Stephen Covey's book "First Things First" to stress the importance of focusing on essential priorities for success. He also suggests that having fewer, critical priorities is more effective.
 **Establishing Your Rocks:**
 1. Review the Vision/Traction Organizer (V/TO) to ensure alignment among the leadership team.
 2. List everything that must be accomplished in the next 90 days.

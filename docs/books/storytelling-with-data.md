@@ -8,7 +8,7 @@ pages: "288"
 cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444690744l/26535513._SX318_.jpg
 datePublished: 2015-01-01
 title: Storytelling with Data
-author: "[[Cole Nussbaumer Knaflic]]"
+author: "Cole Nussbaumer Knaflic"
 avgRating: "4.4"
 tags:
   - book
@@ -18,7 +18,7 @@ relations:
   - "[Storytelling](Storytelling.md)"
   - "[Cognitive Load](Cognitive%20Load.md)"
   - "[Visual Perception](Visual%20Perception.md)"
-  - "[Preattentive Attributes](Preattentive%20Attributes.md)"
+  - "Preattentive Attributes"
   - "[Explanatory Analysis](Explanatory%20Analysis.md)"
   - "[Design Principles](Design%20Principles.md)"
   - "[Audience Engagement](Audience%20Engagement.md)"
@@ -90,7 +90,7 @@ relations:
 ![Pasted image 20231028211724.png](../assets/images/Pasted%20image%2020231028211724.png)
 
 > _Iconic memory enables the audience to see what we want them to see before they are conscious of seeing it._
-### Visual Types of [Preattentive Attributes](Preattentive%20Attributes.md)
+### Visual Types of Preattentive Attributes
 - Orientation
 - Shape
 - Line length
@@ -103,7 +103,7 @@ relations:
 - Intensity
 - Spatial position
 - Motion
-> **NOTE**: Use [Preattentive Attributes](Preattentive%20Attributes.md) sparingly to enhance their capabilities
+> **NOTE**: Use Preattentive Attributes sparingly to enhance their capabilities
 ## Chapter 5: think like a designer
 ### Affordances
 - Highlight what's important using preattentive attributes
